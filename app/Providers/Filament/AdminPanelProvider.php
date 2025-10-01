@@ -33,7 +33,7 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
-            ->favicon(asset('images/favicon.ico'))
+            ->favicon(asset('images/Haka-Favicon.png'))
             ->brandLogo(asset('images/logo.svg'))
             ->brandLogoHeight('2rem')
             ->passwordReset()

@@ -1,0 +1,268 @@
+/* Layout fixes for topbar and main content */
+
+/* Fix for JavaScript offsetTop error and topbar positioning */
+.fi-topbar {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transform: none !important;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    width:100% !important;
+}
+
+/* Ensure topbar container has proper positioning */
+.fi-topbar-ctn {
+    position: relative;
+    top: 0 !important;
+    transform: none !important;
+    width: 100%;
+    height: 64px !important; /* Fixed height instead of 100% */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Fix for any JavaScript that might be setting negative top values */
+.fi-topbar[style*="top: -"] {
+    top: 0 !important;
+}
+
+/* Ensure main content has proper top margin to account for fixed topbar */
+.fi-main {
+    margin-top: 10px !important; /* Reduced from 64px to 10px */
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Remove any additional spacing that might be added by Filament */
+.fi-main > * {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Fix for any wrapper elements that might add spacing */
+.fi-main .fi-page,
+.fi-main .fi-page-content,
+.fi-main .fi-content {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Ensure no spacing from body or html */
+body, html {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Fix for any container that might add spacing */
+.fi-main .fi-container,
+.fi-main .fi-section {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Fix dashboard content positioning - Remove excessive padding */
+.fi-main-content {
+    flex: 1;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100%;
+    width: 100%;
+}
+
+/* Fix dashboard title positioning - Remove excessive margins */
+.fi-main h1,
+.fi-main .fi-heading {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Remove excessive padding from main content containers */
+.fi-main .fi-section,
+.fi-main .fi-section-content,
+.fi-main .fi-content {
+    padding: 0.5rem !important;
+    margin: 0 !important;
+}
+
+/* Fix page content spacing */
+.fi-page {
+    padding: 0.5rem !important;
+}
+
+.fi-page-content {
+    padding: 0.5rem !important;
+}
+
+/* Remove excessive spacing from dashboard widgets and cards */
+.fi-dashboard-card,
+.fi-widget {
+    margin: 0.25rem !important;
+    padding: 0.5rem !important;
+}
+
+/* Fix form spacing */
+.fi-form {
+    padding: 0.5rem !important;
+}
+
+.fi-form-section {
+    padding: 0.25rem !important;
+    margin: 0.25rem !important;
+}
+
+/* Fix table spacing */
+.fi-table {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.fi-table-container {
+    padding: 0.25rem !important;
+}
+
+/* Remove excessive margins from content areas */
+.fi-content,
+.fi-content-area {
+    padding: 0.5rem !important;
+    margin: 0 !important;
+}
+
+/* Fix spacing for specific Filament components */
+.fi-section-header {
+    margin-bottom: 0.5rem !important;
+    padding: 0.25rem !important;
+}
+
+.fi-section-content {
+    padding: 0.25rem !important;
+    margin: 0 !important;
+}
+
+/* Fix for any sticky positioning issues */
+.fi-topbar-nav-groups {
+    position: relative;
+    top: 0 !important;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1;
+    justify-content: center;
+    max-width: 100%;
+}
+
+/* Fix main navigation width and layout */
+.fi-topbar-nav-groups .fi-topbar-item {
+    flex-shrink: 0;
+    min-width: auto;
+    white-space: nowrap;
+    margin: 0 0.25rem;
+}
+
+/* Ensure navigation doesn't overflow */
+.fi-topbar-nav-groups {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Prevent any JavaScript from overriding topbar position */
+.fi-topbar * {
+    position: relative;
+}
+
+/* Navigation items in topbar */
+.fi-topbar-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    min-height: 40px;
+}
+
+/* Search input in topbar */
+.fi-topbar-search {
+    min-width: 200px;
+    max-width: 300px;
+}
+
+/* User menu in topbar */
+.fi-topbar-user-menu {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Logo in topbar */
+.fi-topbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-right: 1rem;
+}
+
+/* Hide icons in topbar navigation groups */
+.fi-topbar-nav-groups .fi-icon,
+.fi-topbar-nav-groups .fi-icon svg {
+    display: none !important;
+}
+
+/* Hide icons in topbar items (menu phụ) */
+.fi-topbar-item .fi-icon,
+.fi-topbar-item .fi-icon svg {
+    display: none !important;
+}
+
+/* Additional fixes for large gaps */
+.fi-main .fi-section-header,
+.fi-main .fi-section-content,
+.fi-main .fi-section {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Fix for any breadcrumb or header spacing */
+.fi-main .fi-breadcrumbs,
+.fi-main .fi-page-header,
+.fi-main .fi-page-title {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Fix for any tabs or navigation spacing */
+.fi-main .fi-tabs,
+.fi-main .fi-tabs-container {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Ensure no spacing from any Filament component */
+.fi-main .fi-component,
+.fi-main .fi-widget,
+.fi-main .fi-card {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Force remove any spacing that might be added by JavaScript */
+.fi-main * {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Specific fix for the main content area */
+.fi-main .fi-main-content > *:first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+

@@ -29,7 +29,7 @@
                 class="mb-3 h-8 w-8 text-gray-400 dark:text-gray-500"
             />
             <p class="text-sm">
-                {{ __('No followers have been added yet.') }}
+                {{ __('Chưa có ai theo dõi.') }}
             </p>
         </div>
     @endforelse

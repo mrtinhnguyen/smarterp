@@ -3,10 +3,8 @@
 namespace Webkul\Project;
 
 use Filament\Contracts\Plugin;
-use Filament\Navigation\NavigationItem;
 use Filament\Panel;
 use ReflectionClass;
-use Webkul\Project\Filament\Clusters\Settings\Pages\ManageTasks;
 use Webkul\Support\Package;
 
 class ProjectPlugin implements Plugin
@@ -33,15 +31,7 @@ class ProjectPlugin implements Plugin
                     ->discoverResources(in: $this->getPluginBasePath('/Filament/Resources'), for: 'Webkul\\Project\\Filament\\Resources')
                     ->discoverPages(in: $this->getPluginBasePath('/Filament/Pages'), for: 'Webkul\\Project\\Filament\\Pages')
                     ->discoverClusters(in: $this->getPluginBasePath('/Filament/Clusters'), for: 'Webkul\\Project\\Filament\\Clusters')
-                    ->discoverWidgets(in: $this->getPluginBasePath('/Filament/Widgets'), for: 'Webkul\\Project\\Filament\\Widgets')
-                    ->navigationItems([
-                        NavigationItem::make('settings')
-                            ->label(fn () => __('projects::app.navigation.settings.label'))
-                            ->url(fn () => ManageTasks::getUrl())
-                            ->group('Project')
-                            ->sort(3)
-                            ->visible(fn() => ManageTasks::canAccess()),
-                    ]);
+                    ->discoverWidgets(in: $this->getPluginBasePath('/Filament/Widgets'), for: 'Webkul\\Project\\Filament\\Widgets');
             });
     }
 

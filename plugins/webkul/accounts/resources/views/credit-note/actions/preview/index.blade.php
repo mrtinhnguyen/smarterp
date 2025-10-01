@@ -127,7 +127,7 @@
     <div class="page">
         <!-- Header -->
         <div class="page-header">
-            <b>Credit Note</b>
+            <b>Phiếu ghi có</b>
         </div>
         <div class="page-content">
             <!-- Credit Note Information -->
@@ -135,17 +135,17 @@
                 <tbody>
                     <tr>
                         <td style="width: 50%; padding: 2px 18px;border:none;">
-                            <b>Credit Note ID:</b>
+                            <b>Mã phiếu ghi có:</b>
                             <span>{{ $record->name }}</span>
                         </td>
                     </tr>
                     <tr>
                         <td style="width: 50%; padding: 2px 18px;border:none;">
-                            <b>Credit Note Date:</b>
+                            <b>Ngày phiếu ghi có:</b>
                             <span>{{ $record->invoice_date }}</span>
                         </td>
                         <td style="width: 50%; padding: 2px 18px;border:none;">
-                            <b>Due Date:</b>
+                            <b>Ngày đến hạn:</b>
                             <span>{{ $record->invoice_date_due }}</span>
                         </td>
                     </tr>
@@ -156,10 +156,10 @@
                 <thead>
                     <tr>
                         <th style="width: 50%;">
-                            <b>Bill From</b>
+                            <b>Hóa đơn từ</b>
                         </th>
                         <th style="width: 50%">
-                            <b>Ship to</b>
+                            <b>Gửi đến</b>
                         </th>
                     </tr>
                 </thead>
@@ -218,11 +218,11 @@
                 <table class="ltr">
                     <thead>
                         <tr>
-                            <th>SKU</th>
-                            <th>Product Name</th>
-                            <th>Price</th>
-                            <th>Quantity</th>
-                            <th>Subtotal</th>
+                            <th>Mã SKU</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Giá</th>
+                            <th>Số lượng</th>
+                            <th>Tổng phụ</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -242,23 +242,23 @@
                 <table class="ltr">
                     <tbody>
                         <tr>
-                            <td>Subtotal</td>
+                            <td>Tổng phụ</td>
                             <td>-</td>
                             <td>{{ $record->currency->symbol }} {{ number_format($record->amount_untaxed, 2) }}</td>
                         </tr>
                         <tr>
-                            <td>Tax</td>
+                            <td>Thuế</td>
                             <td>-</td>
                             <td>{{ $record->currency->symbol }} {{ number_format($record->amount_tax, 2) }}</td>
                         </tr>
                         <tr>
-                            <td>Discount</td>
+                            <td>Giảm giá</td>
                             <td>-</td>
                             <td>-{{ $record->currency->symbol }} {{ number_format($record->total_discount, 2) }}</td>
                         </tr>
                         <tr>
                             <td style="border-top: 1px solid #FFFFFF;">
-                                <b>Grand Total</b>
+                                <b>Tổng cộng</b>
                             </td>
                             <td style="border-top: 1px solid #FFFFFF;">-</td>
                             <td style="border-top: 1px solid #FFFFFF;">
@@ -272,12 +272,12 @@
             <!-- Payment Information Section -->
             @if ($record->name)
                 <div class="payment-info">
-                    <div class="payment-info-title">Payment Information</div>
+                    <div class="payment-info-title">Thông tin thanh toán</div>
                     <div>
-                        Payment Communication: {{ $record->name }}
+                        Thông tin thanh toán: {{ $record->name }}
                         @if ($record?->partnerBank?->bank?->name || $record?->partnerBank?->account_number)
                             <br>
-                            <span class="payment-info-details">on this account details:</span>
+                            <span class="payment-info-details">với thông tin tài khoản:</span>
                             {{ $record?->partnerBank?->bank?->name ?? 'N/A' }}
                             ({{ $record?->partnerBank?->account_number ?? 'N/A' }})
                         @endif

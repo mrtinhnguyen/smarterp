@@ -1,3 +1,4 @@
+<div>
 @php
     $gridDirection = $getGridDirection() ?? 'column';
     $hasInlineLabel = $hasInlineLabel();
@@ -75,7 +76,6 @@
     </div>
 </x-dynamic-component>
 
-@push('styles')
     <style>
         .stage-button {
             border-radius: 0;
@@ -140,4 +140,4 @@
             background-color: var(--color-500);
         }
     </style>
-@endpush
+</div>

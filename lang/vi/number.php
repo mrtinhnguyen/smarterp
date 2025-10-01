@@ -1,0 +1,58 @@
+<?php
+
+return [
+    'formats' => [
+        'currency' => [
+            'symbol' => '₫',
+            'position' => 'after',
+            'decimals' => 0,
+            'thousands_separator' => '.',
+            'decimal_separator' => ',',
+        ],
+        'number' => [
+            'decimals' => 2,
+            'thousands_separator' => '.',
+            'decimal_separator' => ',',
+        ],
+        'percentage' => [
+            'decimals' => 2,
+            'thousands_separator' => '.',
+            'decimal_separator' => ',',
+        ],
+    ],
+
+    'words' => [
+        'zero' => 'không',
+        'one' => 'một',
+        'two' => 'hai',
+        'three' => 'ba',
+        'four' => 'bốn',
+        'five' => 'năm',
+        'six' => 'sáu',
+        'seven' => 'bảy',
+        'eight' => 'tám',
+        'nine' => 'chín',
+        'ten' => 'mười',
+        'eleven' => 'mười một',
+        'twelve' => 'mười hai',
+        'thirteen' => 'mười ba',
+        'fourteen' => 'mười bốn',
+        'fifteen' => 'mười lăm',
+        'sixteen' => 'mười sáu',
+        'seventeen' => 'mười bảy',
+        'eighteen' => 'mười tám',
+        'nineteen' => 'mười chín',
+        'twenty' => 'hai mươi',
+        'thirty' => 'ba mươi',
+        'forty' => 'bốn mươi',
+        'fifty' => 'năm mươi',
+        'sixty' => 'sáu mươi',
+        'seventy' => 'bảy mươi',
+        'eighty' => 'tám mươi',
+        'ninety' => 'chín mươi',
+        'hundred' => 'trăm',
+        'thousand' => 'nghìn',
+        'million' => 'triệu',
+        'billion' => 'tỷ',
+    ],
+];

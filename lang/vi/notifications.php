@@ -1,0 +1,63 @@
+<?php
+
+return [
+    'success' => [
+        'created' => 'Đã tạo thành công',
+        'updated' => 'Đã cập nhật thành công',
+        'deleted' => 'Đã xóa thành công',
+        'saved' => 'Đã lưu thành công',
+        'sent' => 'Đã gửi thành công',
+        'uploaded' => 'Đã tải lên thành công',
+        'downloaded' => 'Đã tải xuống thành công',
+        'imported' => 'Đã nhập thành công',
+        'exported' => 'Đã xuất thành công',
+        'restored' => 'Đã khôi phục thành công',
+        'activated' => 'Đã kích hoạt thành công',
+        'deactivated' => 'Đã vô hiệu hóa thành công',
+    ],
+
+    'error' => [
+        'created' => 'Tạo thất bại',
+        'updated' => 'Cập nhật thất bại',
+        'deleted' => 'Xóa thất bại',
+        'saved' => 'Lưu thất bại',
+        'sent' => 'Gửi thất bại',
+        'uploaded' => 'Tải lên thất bại',
+        'downloaded' => 'Tải xuống thất bại',
+        'imported' => 'Nhập thất bại',
+        'exported' => 'Xuất thất bại',
+        'restored' => 'Khôi phục thất bại',
+        'activated' => 'Kích hoạt thất bại',
+        'deactivated' => 'Vô hiệu hóa thất bại',
+        'not_found' => 'Không tìm thấy',
+        'unauthorized' => 'Không có quyền truy cập',
+        'forbidden' => 'Bị cấm truy cập',
+        'validation' => 'Lỗi xác thực',
+        'server' => 'Lỗi máy chủ',
+        'network' => 'Lỗi mạng',
+    ],
+
+    'warning' => [
+        'confirm_delete' => 'Bạn có chắc chắn muốn xóa?',
+        'confirm_restore' => 'Bạn có chắc chắn muốn khôi phục?',
+        'confirm_activate' => 'Bạn có chắc chắn muốn kích hoạt?',
+        'confirm_deactivate' => 'Bạn có chắc chắn muốn vô hiệu hóa?',
+        'unsaved_changes' => 'Bạn có thay đổi chưa được lưu',
+        'session_expired' => 'Phiên làm việc đã hết hạn',
+        'data_outdated' => 'Dữ liệu đã lỗi thời',
+    ],
+
+    'info' => [
+        'loading' => 'Đang tải...',
+        'processing' => 'Đang xử lý...',
+        'saving' => 'Đang lưu...',
+        'sending' => 'Đang gửi...',
+        'uploading' => 'Đang tải lên...',
+        'downloading' => 'Đang tải xuống...',
+        'importing' => 'Đang nhập...',
+        'exporting' => 'Đang xuất...',
+        'restoring' => 'Đang khôi phục...',
+        'activating' => 'Đang kích hoạt...',
+        'deactivating' => 'Đang vô hiệu hóa...',
+    ],
+];

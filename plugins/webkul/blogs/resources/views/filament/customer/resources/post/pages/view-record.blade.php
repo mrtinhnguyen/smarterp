@@ -1,5 +1,5 @@
-<x-filament-panels::page>
-    @push('styles')
+<div>
+    <x-filament-panels::page>
         <meta name="description" content="{{ trim($record->meta_description) != "" ? $record->meta_description : \Illuminate\Support\Str::limit(strip_tags($record->content), 120, '') }}"/>
 
         <meta name="keywords" content="{{ $record->meta_keywords }}"/>
@@ -23,7 +23,6 @@
         <meta property="og:description" content="{!! htmlspecialchars(trim(strip_tags($record->content))) !!}" />
 
         <meta property="og:url" content="{{ self::getResource()::$parentResource::getUrl('posts.view', ['category' => $record->category->slug, 'record' => $record->slug]) }}" />
-    @endPush
 
     @if ($record->image_url)
         <div class="md:shrink-0">
@@ -63,4 +62,5 @@
             </p>
         </div>
     </div>
-</x-filament-panels::page>
+    </x-filament-panels::page>
+</div>
