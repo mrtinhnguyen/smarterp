@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 return [
     'title' => 'Phân bổ',
@@ -50,14 +50,14 @@ return [
                     'approve'  => 'Phê duyệt',
                 ],
                 'notification' => [
-                    'title' => 'Phân bổ đã phê duyệt',
+                    'title' => 'Phân bổ đã được phê duyệt',
                     'body'  => 'Phân bổ đã được phê duyệt thành công.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Phân bổ đã xóa',
+                    'title' => 'Phân bổ đã được xóa',
                     'body'  => 'Phân bổ đã được xóa thành công.',
                 ],
             ],
@@ -65,8 +65,8 @@ return [
             'refused' => [
                 'title'        => 'Từ chối',
                 'notification' => [
-                    'title' => 'Phân bổ đã từ chối',
-                    'body'  => 'Phân bổ đã được từ chối thành công.',
+                    'title' => 'Phân bổ đã bị từ chối',
+                    'body'  => 'Phân bổ đã bị từ chối thành công.',
                 ],
             ],
         ],
@@ -74,7 +74,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Các phân bổ đã xóa',
+                    'title' => 'Các phân bổ đã được xóa',
                     'body'  => 'Các phân bổ đã được xóa thành công.',
                 ],
             ],
@@ -105,7 +105,7 @@ return [
                 'entries' => [
                     'date-to-placeholder' => 'Không giới hạn',
                     'allocation'          => 'Số ngày',
-                    'allocation-value'    => ':days số ngày',
+                    'allocation-value'    => ':days ngày',
                     'state'               => 'Trạng thái',
                 ],
             ],

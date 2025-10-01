@@ -1,16 +1,16 @@
 ﻿<?php
 
 return [
-    'title' => 'Vendors',
+    'title' => 'Nhà cung cấp',
 
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => 'Add Vendor Price',
+                'label' => 'Thêm giá nhà cung cấp',
 
                 'notification' => [
-                    'title' => 'Gia nha cung cap da duoc tao',
-                    'body'  => 'Gia nha cung cap da duoc tao thanh cong.',
+                    'title' => 'Giá nhà cung cấp đã được tạo',
+                    'body'  => 'Giá nhà cung cấp đã được tạo thành công.',
                 ],
             ],
         ],

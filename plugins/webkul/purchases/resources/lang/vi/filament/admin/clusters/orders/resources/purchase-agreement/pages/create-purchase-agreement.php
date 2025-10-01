@@ -1,11 +1,11 @@
 ﻿<?php
 
 return [
-    'title' => 'Create Purchase Agreement',
+    'title' => 'Tạo hợp đồng mua hàng',
 
     'notification' => [
-        'title' => 'Hop dong mua hang da duoc tao',
-        'body'  => 'Hop dong mua hang da duoc tao thanh cong.',
+        'title' => 'Hợp đồng mua hàng đã được tạo',
+        'body'  => 'Hợp đồng mua hàng đã được tạo thành công.',
     ],
 ];
 

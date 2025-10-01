@@ -2,10 +2,9 @@
 
 return [
     'tabs' => [
-        'my-quotations' => 'My Quotations',
-        'quotations'    => 'Quotations',
-        'sales-orders'  => 'Sales Orders',
-        'archived'      => 'Archived',
+        'my-quotations' => 'Báo giá của tôi',
+        'quotations'    => 'Báo giá',
+        'sales-orders'  => 'Đơn hàng bán',
+        'archived'      => 'Đã lưu trữ',
     ],
 ];
-

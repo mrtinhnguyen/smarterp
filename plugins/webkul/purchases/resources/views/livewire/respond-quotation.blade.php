@@ -1,5 +1,5 @@
 <div>
     <x-filament-panels::page.simple>
-        The RFQ has been acknowledged successfully.
+        RFQ đã được xác nhận thành công.
     </x-filament-panels::page.simple>
 </div>

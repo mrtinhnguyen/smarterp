@@ -1,38 +1,14 @@
-﻿<?php
+<?php
 
 return [
-    'navigation' => [
-        'title' => 'Giai đoạn công việc',
-        'group' => 'Dự án',
-    ],
-    'form' => [
-        'sections' => [
-            'general' => [
-                'title' => 'Thông tin chung',
-                'fields' => [
-                    'name' => 'Tên',
-                    'description' => 'Mô tả',
-                ],
-            ],
-        ],
-    ],
     'table' => [
-        'columns' => [
-            'name' => 'Tên',
-            'created-at' => 'Tạo lúc',
-            'updated-at' => 'Cập nhật lúc',
-        ],
-        'actions' => [
-            'edit' => [
+        'header-actions' => [
+            'create' => [
+                'label' => 'Thêm giai đoạn nhiệm vụ',
+
                 'notification' => [
-                    'title' => 'Đã cập nhật',
-                    'body' => 'Đã được cập nhật thành công.',
-                ],
-            ],
-            'delete' => [
-                'notification' => [
-                    'title' => 'Đã xóa',
-                    'body' => 'Đã được xóa thành công.',
+                    'title' => 'Giai đoạn nhiệm vụ đã được tạo',
+                    'body'  => 'Giai đoạn nhiệm vụ đã được tạo thành công.',
                 ],
             ],
         ],

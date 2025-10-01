@@ -195,9 +195,9 @@
             <!-- Agreement Title -->
             <div class="agreement-title">
                 @if ($record->type == 'blanket_order')
-                    Blanket Order #{{ $record->name }}
+                    Đơn hàng tổng #{{ $record->name }}
                 @else
-                    Purchase Agreement #{{ $record->name }}
+                    Hợp đồng mua hàng #{{ $record->name }}
                 @endif
             </div>
 
@@ -206,21 +206,21 @@
                 <tr>
                     @if ($record->ends_at)
                         <td width="33%">
-                            <strong>Agreement Validity</strong><br>
+                            <strong>Hiệu lực hợp đồng</strong><br>
                             {{ $record->ends_at }}
                         </td>
                     @endif
 
                     @if ($record->user_id)
                         <td width="33%">
-                            <strong>Contact</strong><br>
+                            <strong>Liên hệ</strong><br>
                             {{ $record->user->name }}
                         </td>
                     @endif
 
                     @if ($record->reference)
                         <td width="33%">
-                            <strong>Reference</strong><br>
+                            <strong>Mã tham chiếu</strong><br>
                             {{ $record->reference }}
                         </td>
                     @endif
@@ -232,14 +232,14 @@
                 <table class="items-table">
                     <thead>
                         <tr>
-                            <th>Product</th>
-                            <th>Quantity</th>
+                            <th>Sản phẩm</th>
+                            <th>Số lượng</th>
 
                             @if (app(\Webkul\Purchase\Settings\ProductSettings::class)->enable_uom)
-                                <th>Unit</th>
+                                <th>Đơn vị</th>
                             @endif
                             
-                            <th>Unit Price</th>
+                            <th>Đơn giá</th>
                         </tr>
                     </thead>
                     
@@ -262,25 +262,25 @@
 
             <!-- Terms Section -->
             <div class="terms-section">
-                <strong>Terms & Conditions:</strong><br>
+                <strong>Điều khoản & Điều kiện:</strong><br>
                 
                 @if ($record->payment_term_id)
                     <div style="margin-top: 10px;">
-                        <strong>Payment Terms:</strong><br>
+                        <strong>Điều khoản thanh toán:</strong><br>
                         {{ $record->paymentTerm->name }}
                     </div>
                 @endif
 
                 @if ($record->notes)
                     <div style="margin-top: 10px;">
-                        <strong>Additional Terms:</strong><br>
+                        <strong>Điều khoản bổ sung:</strong><br>
                         {{ $record->notes }}
                     </div>
                 @endif
             </div>
 
             <div class="note">
-                This agreement constitutes the entire understanding between the parties.
+                Thỏa thuận này tạo thành toàn bộ hiểu biết giữa các bên.
             </div>
         </div>
     @endforeach

@@ -3,67 +3,66 @@
 return [
     'table' => [
         'columns' => [
-            'reference'         => 'Reference',
-            'total-amount'      => 'Total Amount',
-            'confirmation-date' => 'Confirmation Date',
-            'status'            => 'Status',
+            'reference'         => 'Mã tham chiếu',
+            'total-amount'      => 'Tổng số tiền',
+            'confirmation-date' => 'Ngày xác nhận',
+            'status'            => 'Trạng thái',
         ],
     ],
 
     'infolist' => [
         'settings' => [
             'entries' => [
-                'buyer' => 'Buyer',
+                'buyer' => 'Người mua',
             ],
 
             'actions' => [
                 'accept' => [
-                    'label' => 'Accept',
+                    'label' => 'Chấp nhận',
 
                     'notification' => [
-                        'title' => 'Quotation Accepted',
-                        'body'  => 'The RFQ has been acknowledged successfully.',
+                        'title' => 'Báo giá đã được chấp nhận',
+                        'body'  => 'RFQ đã được xác nhận thành công.',
                     ],
 
                     'message' => [
-                        'body' => 'The RFQ has been acknowledged by vendor.',
+                        'body' => 'RFQ đã được nhà cung cấp xác nhận.',
                     ],
                 ],
 
                 'decline' => [
-                    'label' => 'Decline',
+                    'label' => 'Từ chối',
 
                     'notification' => [
-                        'title' => 'Quotation Declined',
-                        'body'  => 'The RFQ has been declined successfully.',
+                        'title' => 'Báo giá đã bị từ chối',
+                        'body'  => 'RFQ đã được từ chối thành công.',
                     ],
 
                     'message' => [
-                        'body' => 'The RFQ has been declined by vendor.',
+                        'body' => 'RFQ đã bị nhà cung cấp từ chối.',
                     ],
                 ],
 
                 'print' => [
-                    'label' => 'Download/Print',
+                    'label' => 'Tải xuống/In',
                 ],
             ],
         ],
 
         'general' => [
             'entries' => [
-                'purchase-order'        => 'Purchase Order #:id',
-                'quotation'             => 'Request for Quotation #:id',
-                'order-date'            => 'Order Date',
-                'from'                  => 'From',
-                'confirmation-date'     => 'Confirmation Date',
-                'receipt-date'          => 'Receipt Date',
-                'products'              => 'Products',
-                'untaxed-amount'        => 'Untaxed Amount',
-                'tax-amount'            => 'Tax Amount',
-                'total'                 => 'Total',
-                'communication-history' => 'Communication History',
+                'purchase-order'        => 'Đơn đặt hàng #:id',
+                'quotation'             => 'Yêu cầu báo giá #:id',
+                'order-date'            => 'Ngày đặt hàng',
+                'from'                  => 'Từ',
+                'confirmation-date'     => 'Ngày xác nhận',
+                'receipt-date'          => 'Ngày nhận hàng',
+                'products'              => 'Sản phẩm',
+                'untaxed-amount'        => 'Số tiền chưa thuế',
+                'tax-amount'            => 'Số tiền thuế',
+                'total'                 => 'Tổng cộng',
+                'communication-history' => 'Lịch sử giao tiếp',
             ],
         ],
     ],
 ];
-

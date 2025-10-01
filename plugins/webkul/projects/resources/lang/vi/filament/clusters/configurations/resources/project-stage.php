@@ -32,21 +32,21 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Giai đoạn dự án đã cập nhật',
+                    'title' => 'Giai đoạn dự án đã được cập nhật',
                     'body'  => 'Giai đoạn dự án đã được cập nhật thành công.',
                 ],
             ],
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Giai đoạn dự án đã khôi phục',
+                    'title' => 'Giai đoạn dự án đã được khôi phục',
                     'body'  => 'Giai đoạn dự án đã được khôi phục thành công.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Giai đoạn dự án đã xóa',
+                    'title' => 'Giai đoạn dự án đã được xóa',
                     'body'  => 'Giai đoạn dự án đã được xóa thành công.',
                 ],
             ],
@@ -54,12 +54,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Giai đoạn dự án đã xóa vĩnh viễn',
+                        'title' => 'Giai đoạn dự án đã được xóa vĩnh viễn',
                         'body'  => 'Giai đoạn dự án đã được xóa vĩnh viễn thành công.',
                     ],
                     'error' => [
                         'title' => 'Không thể xóa giai đoạn dự án',
-                        'body'  => 'Giai đoạn dự án không thể bị xóa vì đang được sử dụng.',
+                        'body'  => 'Giai đoạn dự án không thể được xóa vì đang được sử dụng.',
                     ],
                 ],
             ],
@@ -68,21 +68,21 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Các giai đoạn dự án đã khôi phục',
+                    'title' => 'Các giai đoạn dự án đã được khôi phục',
                     'body'  => 'Các giai đoạn dự án đã được khôi phục thành công.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Các giai đoạn dự án đã xóa',
+                    'title' => 'Các giai đoạn dự án đã được xóa',
                     'body'  => 'Các giai đoạn dự án đã được xóa thành công.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Các giai đoạn dự án đã xóa vĩnh viễn',
+                    'title' => 'Các giai đoạn dự án đã được xóa vĩnh viễn',
                     'body'  => 'Các giai đoạn dự án đã được xóa vĩnh viễn thành công.',
                 ],
             ],

@@ -1,13 +1,13 @@
 ﻿<?php
 
 return [
-    'label' => 'Confirm Order',
+    'label' => 'Xác nhận đơn hàng',
 
     'action' => [
         'notification' => [
             'success' => [
-                'title' => 'Order confirmed',
-                'body'  => 'The order has been confirmed successfully.',
+                'title' => 'Đơn hàng đã được xác nhận',
+                'body'  => 'Đơn hàng đã được xác nhận thành công.',
             ],
         ],
     ],

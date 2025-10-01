@@ -1,39 +1,40 @@
-﻿<?php
+<?php
 
 return [
-    'navigation' => [
-        'title' => 'Chỉnh sửa phân bổ',
-        'group' => 'Quản lý',
+    'notification' => [
+        'title' => 'Phân bổ đã được cập nhật',
+        'body'  => 'Phân bổ đã được cập nhật thành công.',
     ],
-    'form' => [
-        'sections' => [
-            'general' => [
-                'title' => 'Thông tin chung',
-                'fields' => [
-                    'name' => 'Tên',
-                    'description' => 'Mô tả',
-                ],
+
+    'header-actions' => [
+        'delete' => [
+            'notification' => [
+                'title' => 'Phân bổ đã được xóa',
+                'body'  => 'Phân bổ đã được xóa thành công.',
             ],
         ],
-    ],
-    'table' => [
-        'columns' => [
-            'name' => 'Tên',
-            'created-at' => 'Tạo lúc',
-            'updated-at' => 'Cập nhật lúc',
-        ],
-        'actions' => [
-            'edit' => [
-                'notification' => [
-                    'title' => 'Đã cập nhật',
-                    'body' => 'Đã được cập nhật thành công.',
-                ],
+        'approved' => [
+            'title' => 'Đã phê duyệt',
+
+            'notification' => [
+                'title' => 'Phân bổ đã được phê duyệt',
+                'body'  => 'Phân bổ đã được phê duyệt thành công.',
             ],
-            'delete' => [
-                'notification' => [
-                    'title' => 'Đã xóa',
-                    'body' => 'Đã được xóa thành công.',
-                ],
+        ],
+        'refuse' => [
+            'title' => 'Từ chối',
+
+            'notification' => [
+                'title' => 'Phân bổ đã bị từ chối',
+                'body'  => 'Phân bổ đã bị từ chối thành công.',
+            ],
+        ],
+        'mark-as-ready-to-confirm' => [
+            'title' => 'Đánh dấu sẵn sàng xác nhận',
+
+            'notification' => [
+                'title' => 'Đã đánh dấu sẵn sàng xác nhận',
+                'body'  => 'Phân bổ đã được đánh dấu sẵn sàng xác nhận thành công.',
             ],
         ],
     ],

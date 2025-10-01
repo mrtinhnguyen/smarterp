@@ -2,23 +2,23 @@
 
 return [
     'navigation' => [
-        'title' => 'Orders',
+        'title' => 'Đơn hàng',
     ],
 
     'tabs' => [
-        'my-orders'      => 'My Orders',
-        'starred'        => 'Starred',
-        'waiting-bills'  => 'Waiting Bills',
-        'received-bills' => 'Bills Received',
+        'my-orders'      => 'Đơn hàng của tôi',
+        'starred'        => 'Đã đánh dấu',
+        'waiting-bills'  => 'Chờ hóa đơn',
+        'received-bills' => 'Đã nhận hóa đơn',
     ],
 
     'header-actions' => [
         'create' => [
-            'label' => 'New Order',
+            'label' => 'Đơn hàng mới',
 
             'notification' => [
-                'title' => 'Don hang da duoc tao',
-                'body'  => 'Don hang da duoc tao thanh cong.',
+                'title' => 'Đơn hàng đã được tạo',
+                'body'  => 'Đơn hàng đã được tạo thành công.',
             ],
         ],
     ],

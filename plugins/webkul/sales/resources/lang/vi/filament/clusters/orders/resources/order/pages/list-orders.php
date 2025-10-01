@@ -2,10 +2,9 @@
 
 return [
     'tabs' => [
-        'my-orders'  => 'My Orders',
-        'to-invoice' => 'To Invoice',
-        'up-selling' => 'Up Selling',
-        'archived'   => 'Archived',
+        'my-orders'  => 'Đơn hàng của tôi',
+        'to-invoice' => 'Cần xuất hóa đơn',
+        'up-selling' => 'Bán thêm',
+        'archived'   => 'Đã lưu trữ',
     ],
 ];
-

@@ -1,22 +1,22 @@
-﻿<?php
+<?php
 
 return [
     'notification' => [
-        'title' => 'Danh muc da duoc cap nhat',
-        'body'  => 'Danh muc da duoc cap nhat thanh cong.',
+        'title' => 'Danh mục đã được cập nhật',
+        'body'  => 'Danh mục đã được cập nhật thành công.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Danh muc da duoc xoa',
-                    'body'  => 'Danh muc da duoc xoa thanh cong.',
+                    'title' => 'Danh mục đã được xóa',
+                    'body'  => 'Danh mục đã được xóa thành công.',
                 ],
 
                 'error' => [
-                    'title' => 'Category could not be deleted',
-                    'body'  => 'The category cannot be deleted because it is currently in use.',
+                    'title' => 'Không thể xóa danh mục',
+                    'body'  => 'Danh mục không thể được xóa vì đang được sử dụng.',
                 ],
             ],
         ],
@@ -25,9 +25,8 @@ return [
     'save' => [
         'notification' => [
             'error' => [
-                'title' => 'Category updated failed',
+                'title' => 'Cập nhật danh mục thất bại',
             ],
         ],
     ],
 ];
-

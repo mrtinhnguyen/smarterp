@@ -40,14 +40,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Cột mốc đã cập nhật',
+                    'title' => 'Cột mốc đã được cập nhật',
                     'body'  => 'Cột mốc đã được cập nhật thành công.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Cột mốc đã xóa',
+                    'title' => 'Cột mốc đã được xóa',
                     'body'  => 'Cột mốc đã được xóa thành công.',
                 ],
             ],
@@ -56,7 +56,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Các cột mốc đã xóa',
+                    'title' => 'Các cột mốc đã được xóa',
                     'body'  => 'Các cột mốc đã được xóa thành công.',
                 ],
             ],

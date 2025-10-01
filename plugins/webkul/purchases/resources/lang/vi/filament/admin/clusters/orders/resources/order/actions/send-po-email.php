@@ -1,21 +1,21 @@
 ﻿<?php
 
 return [
-    'label' => 'Send PO By Email',
+    'label' => 'Gửi PO qua Email',
 
     'form' => [
         'fields' => [
-            'to'      => 'To',
-            'subject' => 'Subject',
-            'message' => 'Message',
+            'to'      => 'Đến',
+            'subject' => 'Tiêu đề',
+            'message' => 'Tin nhắn',
         ],
     ],
 
     'action' => [
         'notification' => [
             'success' => [
-                'title' => 'Email sent',
-                'body'  => 'The email has been sent successfully.',
+                'title' => 'Email đã được gửi',
+                'body'  => 'Email đã được gửi thành công.',
             ],
         ],
     ],

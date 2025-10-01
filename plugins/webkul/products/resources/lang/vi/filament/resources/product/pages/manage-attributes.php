@@ -1,47 +1,46 @@
-﻿<?php
+<?php
 
 return [
-    'title' => 'Attributes',
+    'title' => 'Thuộc tính',
 
     'form' => [
-        'attribute' => 'Attribute',
-        'values'    => 'Values',
+        'attribute' => 'Thuộc tính',
+        'values'    => 'Giá trị',
     ],
 
     'table' => [
-        'description' => 'Warning: adding or deleting attributes will delete and recreate existing variants and lead to the loss of their possible customizations.',
+        'description' => 'Cảnh báo: thêm hoặc xóa thuộc tính sẽ xóa và tạo lại các biến thể hiện có và dẫn đến mất các tùy chỉnh có thể có của chúng.',
 
         'header-actions' => [
             'create' => [
-                'label' => 'Add Attribute',
+                'label' => 'Thêm thuộc tính',
 
                 'notification' => [
-                    'title' => 'Thuoc tinh da duoc tao',
-                    'body'  => 'Thuoc tinh da duoc tao thanh cong.',
+                    'title' => 'Thuộc tính đã được tạo',
+                    'body'  => 'Thuộc tính đã được tạo thành công.',
                 ],
             ],
         ],
 
         'columns' => [
-            'attribute' => 'Attribute',
-            'values'    => 'Values',
+            'attribute' => 'Thuộc tính',
+            'values'    => 'Giá trị',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Thuoc tinh da duoc cap nhat',
-                    'body'  => 'Thuoc tinh da duoc cap nhat thanh cong.',
+                    'title' => 'Thuộc tính đã được cập nhật',
+                    'body'  => 'Thuộc tính đã được cập nhật thành công.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Thuoc tinh da duoc xoa',
-                    'body'  => 'Thuoc tinh da duoc xoa thanh cong.',
+                    'title' => 'Thuộc tính đã được xóa',
+                    'body'  => 'Thuộc tính đã được xóa thành công.',
                 ],
             ],
         ],
     ],
 ];
-

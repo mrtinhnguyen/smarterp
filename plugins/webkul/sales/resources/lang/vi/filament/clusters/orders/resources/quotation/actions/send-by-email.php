@@ -1,21 +1,21 @@
 ﻿<?php
 
 return [
-    'title'        => 'Send By Email',
-    'resend-title' => 'Re-Send By Email',
-    'quotation'    => 'quotation',
-    'quotations'   => 'quotations',
+    'title'        => 'Gửi qua Email',
+    'resend-title' => 'Gửi lại qua Email',
+    'quotation'    => 'báo giá',
+    'quotations'   => 'báo giá',
 
     'modal' => [
-        'heading' => 'Send Quotation By Email',
+        'heading' => 'Gửi báo giá qua Email',
     ],
 
     'form' => [
         'fields' => [
-            'partners'    => 'Partners',
-            'subject'     => 'Subject',
-            'description' => 'Description',
-            'attachment'  => 'Attachment',
+            'partners'    => 'Đối tác',
+            'subject'     => 'Chủ đề',
+            'description' => 'Mô tả',
+            'attachment'  => 'Tệp đính kèm',
         ],
     ],
 
@@ -23,24 +23,24 @@ return [
         'notification' => [
             'email' => [
                 'no_recipients' => [
-                    'title' => 'No Recipients Selected',
-                    'body'  => 'Please select at least one partner to send quotations to.',
+                    'title' => 'Không có người nhận được chọn',
+                    'body'  => 'Vui lòng chọn ít nhất một đối tác để gửi báo giá.',
                 ],
 
                 'all_success' => [
-                    'title' => 'Quotations Sent!',
-                    'body'  => 'Your :plural have been successfully delivered to: :recipients',
+                    'title' => 'Báo giá đã gửi!',
+                    'body'  => ':plural của bạn đã được gửi thành công đến: :recipients',
                 ],
 
                 'all_failed' => [
-                    'title' => 'Unable to Send Quotations',
-                    'body'  => 'We encountered issues sending your quotations: :failures',
+                    'title' => 'Không thể gửi báo giá',
+                    'body'  => 'Chúng tôi gặp vấn đề khi gửi báo giá của bạn: :failures',
                 ],
 
                 'partial_success' => [
-                    'title'       => 'Some Quotations Sent',
-                    'sent_part'   => 'Successfully delivered to: :recipients',
-                    'failed_part' => 'Could not deliver to: :failures',
+                    'title'       => 'Một số báo giá đã gửi',
+                    'sent_part'   => 'Gửi thành công đến: :recipients',
+                    'failed_part' => 'Không thể gửi đến: :failures',
                 ],
 
                 'failure_item' => ':partner (:reason)',
@@ -49,4 +49,3 @@ return [
     ],
 
 ];
-

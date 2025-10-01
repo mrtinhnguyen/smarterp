@@ -2,7 +2,7 @@
 
 return [
     'header-actions' => [
-        'create' => 'New RFQ',
+        'create' => 'RFQ mới',
     ],
 ];
 

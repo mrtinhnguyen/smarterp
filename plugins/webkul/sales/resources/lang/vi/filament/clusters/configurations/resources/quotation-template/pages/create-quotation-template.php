@@ -2,8 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Quotation Template Created',
-        'body'  => 'Quotation Template has been created successfully.',
+        'title' => 'Mẫu báo giá đã tạo',
+        'body'  => 'Mẫu báo giá đã được tạo thành công.',
     ],
 ];
-

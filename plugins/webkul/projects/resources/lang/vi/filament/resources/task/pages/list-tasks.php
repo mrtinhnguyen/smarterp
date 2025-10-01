@@ -2,9 +2,9 @@
 
 return [
     'tabs' => [
-        'open-tasks'       => 'Nhiệm vụ mở',
+        'open-tasks'       => 'Nhiệm vụ đang mở',
         'my-tasks'         => 'Nhiệm vụ của tôi',
-        'unassigned-tasks' => 'Nhiệm vụ chưa giao',
+        'unassigned-tasks' => 'Nhiệm vụ chưa phân công',
         'private-tasks'    => 'Nhiệm vụ riêng tư',
         'followed-tasks'   => 'Nhiệm vụ đang theo dõi',
         'closed-tasks'     => 'Nhiệm vụ đã đóng',

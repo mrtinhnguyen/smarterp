@@ -1,20 +1,19 @@
-﻿<?php
+<?php
 
 return [
     'header-actions' => [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Danh muc da duoc xoa',
-                    'body'  => 'Danh muc da duoc xoa thanh cong.',
+                    'title' => 'Danh mục đã được xóa',
+                    'body'  => 'Danh mục đã được xóa thành công.',
                 ],
 
                 'error' => [
-                    'title' => 'Category could not be deleted',
-                    'body'  => 'The category cannot be deleted because it is currently in use.',
+                    'title' => 'Không thể xóa danh mục',
+                    'body'  => 'Danh mục không thể được xóa vì đang được sử dụng.',
                 ],
             ],
         ],
     ],
 ];
-

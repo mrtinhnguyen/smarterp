@@ -3,8 +3,8 @@
 return [
     'tabs' => [
         'my-projects'          => 'Dự án của tôi',
-        'my-favorite-projects' => 'Yêu thích của tôi',
-        'unassigned-projects'  => 'Dự án chưa giao',
+        'my-favorite-projects' => 'Dự án yêu thích',
+        'unassigned-projects'  => 'Dự án chưa phân công',
         'archived-projects'    => 'Dự án đã lưu trữ',
     ],
 

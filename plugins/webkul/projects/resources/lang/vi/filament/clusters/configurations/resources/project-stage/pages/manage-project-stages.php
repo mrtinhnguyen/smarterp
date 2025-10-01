@@ -6,7 +6,7 @@ return [
             'label' => 'Giai đoạn dự án mới',
 
             'notification' => [
-                'title' => 'Giai đoạn dự án đã tạo',
+                'title' => 'Giai đoạn dự án đã được tạo',
                 'body'  => 'Giai đoạn dự án đã được tạo thành công.',
             ],
         ],

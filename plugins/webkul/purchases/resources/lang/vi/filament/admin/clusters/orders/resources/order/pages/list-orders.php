@@ -2,26 +2,26 @@
 
 return [
     'navigation' => [
-        'title' => 'Orders',
+        'title' => 'Đơn hàng',
     ],
 
     'tabs' => [
-        'my-purchases'    => 'My Purchases',
-        'starred'         => 'Starred',
-        'purchase-orders' => 'Purchase Orders',
-        'orders'          => 'RFQs',
-        'draft-orders'    => 'Draft RFQs',
-        'waiting-orders'  => 'Waiting RFQs',
-        'late-orders'     => 'Late RFQs',
+        'my-purchases'    => 'Mua hàng của tôi',
+        'starred'         => 'Đã đánh dấu',
+        'purchase-orders' => 'Đơn đặt hàng',
+        'orders'          => 'RFQ',
+        'draft-orders'    => 'RFQ bản nháp',
+        'waiting-orders'  => 'RFQ đang chờ',
+        'late-orders'     => 'RFQ trễ hạn',
     ],
 
     'header-actions' => [
         'create' => [
-            'label' => 'New Order',
+            'label' => 'Đơn hàng mới',
 
             'notification' => [
-                'title' => 'Don hang da duoc tao',
-                'body'  => 'Don hang da duoc tao thanh cong.',
+                'title' => 'Đơn hàng đã được tạo',
+                'body'  => 'Đơn hàng đã được tạo thành công.',
             ],
         ],
     ],

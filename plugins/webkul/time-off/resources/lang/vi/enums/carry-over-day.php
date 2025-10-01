@@ -1,5 +1,6 @@
 ﻿<?php
 
 return [
-    // TODO: Add Vietnamese translations
+    'last-day-of-month' => 'Ngày cuối tháng',
+    'day'               => 'Ngày :day',
 ];

@@ -1,7 +1,6 @@
 ﻿<?php
 
 return [
-    'lock'   => 'Lock',
-    'unlock' => 'Unlock',
+    'lock'   => 'Khóa',
+    'unlock' => 'Mở khóa',
 ];
-

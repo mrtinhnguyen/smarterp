@@ -1,5 +1,11 @@
-﻿<?php
+<?php
 
 return [
-    // TODO: Add Vietnamese translations
+    'title' => 'Ngày lễ',
+    'form'  => [
+        'placeholders' => [
+            'public-holiday'    => 'Ngày lễ công cộng',
+            'mandatory-holiday' => 'Ngày lễ bắt buộc',
+        ],
+    ],
 ];

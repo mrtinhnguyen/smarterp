@@ -2,17 +2,16 @@
 
 return [
     'notification' => [
-        'title' => 'Order Template Product updated',
-        'body'  => 'The Order Template Product has been updated successfully',
+        'title' => 'Mẫu đơn đặt hàng đã cập nhật',
+        'body'  => 'Mẫu đơn đặt hàng đã được cập nhật thành công.',
     ],
 
     'header-actions' => [
         'notification' => [
             'delete' => [
-                'title' => 'Order Template Product deleted',
-                'body'  => 'Order Template Product has been deleted successfully',
+                'title' => 'Mẫu đơn đặt hàng đã xóa',
+                'body'  => 'Mẫu đơn đặt hàng đã được xóa thành công.',
             ],
         ],
     ],
 ];
-

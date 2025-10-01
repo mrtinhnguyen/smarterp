@@ -1,38 +1,50 @@
-﻿<?php
+<?php
 
 return [
-    'navigation' => [
-        'title' => 'Bảng chấm công',
-        'group' => 'Dự án',
-    ],
+    'title' => 'Bảng chấm công',
+
     'form' => [
-        'sections' => [
-            'general' => [
-                'title' => 'Thông tin chung',
-                'fields' => [
-                    'name' => 'Tên',
-                    'description' => 'Mô tả',
+        'date'                   => 'Ngày',
+        'employee'               => 'Nhân viên',
+        'description'            => 'Mô tả',
+        'time-spent'             => 'Thời gian sử dụng',
+        'time-spent-helper-text' => 'Thời gian sử dụng tính bằng giờ (Ví dụ: 1.5 giờ có nghĩa là 1 giờ 30 phút)',
+    ],
+
+    'table' => [
+        'header-actions' => [
+            'create' => [
+                'label' => 'Thêm bảng chấm công',
+
+                'notification' => [
+                    'title' => 'Bảng chấm công đã được tạo',
+                    'body'  => 'Bảng chấm công đã được tạo thành công.',
                 ],
             ],
         ],
-    ],
-    'table' => [
+
         'columns' => [
-            'name' => 'Tên',
-            'created-at' => 'Tạo lúc',
-            'updated-at' => 'Cập nhật lúc',
+            'date'                   => 'Ngày',
+            'employee'               => 'Nhân viên',
+            'description'            => 'Mô tả',
+            'time-spent'             => 'Thời gian sử dụng',
+            'time-spent-on-subtasks' => 'Thời gian sử dụng cho nhiệm vụ phụ',
+            'total-time-spent'       => 'Tổng thời gian sử dụng',
+            'remaining-time'         => 'Thời gian còn lại',
         ],
+
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Đã cập nhật',
-                    'body' => 'Đã được cập nhật thành công.',
+                    'title' => 'Bảng chấm công đã được cập nhật',
+                    'body'  => 'Bảng chấm công đã được cập nhật thành công.',
                 ],
             ],
+
             'delete' => [
                 'notification' => [
-                    'title' => 'Đã xóa',
-                    'body' => 'Đã được xóa thành công.',
+                    'title' => 'Bảng chấm công đã được xóa',
+                    'body'  => 'Bảng chấm công đã được xóa thành công.',
                 ],
             ],
         ],

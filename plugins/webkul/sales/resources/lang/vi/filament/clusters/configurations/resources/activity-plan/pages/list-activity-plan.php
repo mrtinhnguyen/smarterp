@@ -2,19 +2,18 @@
 
 return [
     'tabs' => [
-        'all'      => 'All',
-        'archived' => 'Archived',
+        'all'      => 'Tất cả',
+        'archived' => 'Đã lưu trữ',
     ],
 
     'header-actions' => [
         'create' => [
-            'label' => 'New Activity Plan',
+            'label' => 'Kế hoạch hoạt động mới',
 
             'notification' => [
-                'title' => 'Activity Plan created',
-                'body'  => 'The activity plan has been created successfully.',
+                'title' => 'Kế hoạch hoạt động đã tạo',
+                'body'  => 'Kế hoạch hoạt động đã được tạo thành công.',
             ],
         ],
     ],
 ];
-

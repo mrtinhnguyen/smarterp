@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Receipts',
+        'title' => 'Biên lai nhận hàng',
     ],
 ];
 

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 return [
     'title' => 'Nghỉ phép',
@@ -36,7 +36,7 @@ return [
             'description'    => 'Mô tả',
             'date-from'      => 'Từ ngày',
             'date-to'        => 'Đến ngày',
-            'duration'       => 'Thời lượng',
+            'duration'       => 'Thời gian',
             'status'         => 'Trạng thái',
         ],
 
@@ -46,8 +46,8 @@ return [
             'status'        => 'Trạng thái',
             'start-date'    => 'Ngày bắt đầu',
             'start-to'      => 'Ngày kết thúc',
-            'updated-at'    => 'Cập nhật lúc',
-            'created-at'    => 'Tạo lúc',
+            'updated-at'    => 'Ngày cập nhật',
+            'created-at'    => 'Ngày tạo',
         ],
 
         'actions' => [
@@ -57,14 +57,14 @@ return [
                     'approve'  => 'Phê duyệt',
                 ],
                 'notification' => [
-                    'title' => 'Nghỉ phép đã phê duyệt',
+                    'title' => 'Nghỉ phép đã được phê duyệt',
                     'body'  => 'Nghỉ phép đã được phê duyệt thành công.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Nghỉ phép đã xóa',
+                    'title' => 'Nghỉ phép đã được xóa',
                     'body'  => 'Nghỉ phép đã được xóa thành công.',
                 ],
             ],
@@ -72,8 +72,8 @@ return [
             'refused' => [
                 'title'        => 'Từ chối',
                 'notification' => [
-                    'title' => 'Nghỉ phép đã từ chối',
-                    'body'  => 'Nghỉ phép đã được từ chối thành công.',
+                    'title' => 'Nghỉ phép đã bị từ chối',
+                    'body'  => 'Nghỉ phép đã bị từ chối thành công.',
                 ],
             ],
         ],
@@ -81,7 +81,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Nghỉ phép đã xóa',
+                    'title' => 'Nghỉ phép đã được xóa',
                     'body'  => 'Nghỉ phép đã được xóa thành công.',
                 ],
             ],

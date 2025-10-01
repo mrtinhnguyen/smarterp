@@ -4,10 +4,9 @@ return [
     'header-actions' => [
         'notification' => [
             'delete' => [
-                'title' => 'Delete Quotation Template',
-                'body'  => 'Quotation template has been deleted successfully.',
+                'title' => 'Xóa mẫu báo giá',
+                'body'  => 'Mẫu báo giá đã được xóa thành công.',
             ],
         ],
     ],
 ];
-

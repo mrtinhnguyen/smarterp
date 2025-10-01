@@ -183,7 +183,7 @@
 
             <!-- Quote Number -->
             <div class="quote-number">
-                Request for Quotation #{{ $record->name }}
+                Yêu cầu báo giá #{{ $record->name }}
             </div>
 
             <!-- Items Table -->
@@ -191,9 +191,9 @@
                 <table class="items-table">
                     <thead>
                         <tr>
-                            <th>Description</th>
-                            <th>Expected Date</th>
-                            <th>Quantity</th>
+                            <th>Mô tả</th>
+                            <th>Ngày dự kiến</th>
+                            <th>Số lượng</th>
                         </tr>
                     </thead>
 
@@ -212,13 +212,13 @@
             <!-- Additional Information -->
             @if ($record->valid_until)
                 <div class="terms">
-                    <strong>Quotation Valid Until:</strong><br>
+                    <strong>Báo giá có hiệu lực đến:</strong><br>
                     {{ $record->valid_until }}
                 </div>
             @endif
 
             <div class="note">
-                We look forward to your response. Please contact us for any clarifications.
+                Chúng tôi mong đợi phản hồi từ bạn. Vui lòng liên hệ với chúng tôi để được làm rõ thêm.
             </div>
         </div>
     @endforeach

@@ -1,21 +1,21 @@
-﻿<?php
+<?php
 
 return [
     'header-actions' => [
         'print' => [
-            'label' => 'Print Labels',
+            'label' => 'In nhãn',
 
             'form' => [
                 'fields' => [
-                    'quantity' => 'Number of Labels',
-                    'format'   => 'Format',
+                    'quantity' => 'Số lượng nhãn',
+                    'format'   => 'Định dạng',
 
                     'format-options' => [
                         'dymo'       => 'Dymo',
-                        '2x7_price'  => '2x7 with price',
-                        '4x7_price'  => '4x7 with price',
+                        '2x7_price'  => '2x7 với giá',
+                        '4x7_price'  => '4x7 với giá',
                         '4x12'       => '4x12',
-                        '4x12_price' => '4x12 with price',
+                        '4x12_price' => '4x12 với giá',
                     ],
                 ],
             ],
@@ -23,10 +23,9 @@ return [
 
         'delete' => [
             'notification' => [
-                'title' => 'Product Deleted',
-                'body'  => 'San pham da duoc xoa thanh cong.',
+                'title' => 'Sản phẩm đã được xóa',
+                'body'  => 'Sản phẩm đã được xóa thành công.',
             ],
         ],
     ],
 ];
-

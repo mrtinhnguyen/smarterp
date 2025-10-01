@@ -1,49 +1,48 @@
 ﻿<?php
 
 return [
-    'title' => 'Cancel',
+    'title' => 'Hủy',
     'modal' => [
-        'heading'     => 'Cancel Quotation',
-        'description' => 'Are you sure you want to cancel this Quotation?',
+        'heading'     => 'Hủy báo giá',
+        'description' => 'Bạn có chắc chắn muốn hủy báo giá này không?',
     ],
 
     'footer-actions' => [
         'send-and-cancel' => [
-            'title' => 'Send & Cancel',
+            'title' => 'Gửi & Hủy',
 
             'notification' => [
                 'cancelled' => [
-                    'title' => 'Quotation cancelled',
-                    'body'  => 'Quotation has been cancelled and email has been sent successfully.',
+                    'title' => 'Báo giá đã hủy',
+                    'body'  => 'Báo giá đã được hủy và email đã được gửi thành công.',
                 ],
             ],
         ],
 
         'cancel' => [
-            'title' => 'Cancel',
+            'title' => 'Hủy',
 
             'notification' => [
                 'cancelled' => [
-                    'title' => 'Quotation cancelled',
-                    'body'  => 'Quotation has been cancelled successfully.',
+                    'title' => 'Báo giá đã hủy',
+                    'body'  => 'Báo giá đã được hủy thành công.',
                 ],
             ],
         ],
 
         'close' => [
-            'title' => 'Close',
+            'title' => 'Đóng',
         ],
     ],
 
     'form' => [
         'fields' => [
-            'partner'             => 'Partner',
-            'subject'             => 'Subject',
-            'subject-placeholder' => 'Subject',
-            'subject-default'     => 'Quotation :name has been cancelled for Sales Order #:id',
-            'description'         => 'Description',
-            'description-default' => 'Dear <b>:partner_name</b>, <br/><br/>We would like to inform you that your Sales Order <b>:name</b> has been cancelled. As a result, no further charges will apply to this order. If a refund is required, it will be processed at the earliest convenience.<br/><br/>Should you have any questions or require further assistance, please feel free to reach out to us.',
+            'partner'             => 'Đối tác',
+            'subject'             => 'Chủ đề',
+            'subject-placeholder' => 'Chủ đề',
+            'subject-default'     => 'Báo giá :name đã bị hủy cho Đơn hàng bán #:id',
+            'description'         => 'Mô tả',
+            'description-default' => 'Kính gửi <b>:partner_name</b>, <br/><br/>Chúng tôi xin thông báo rằng Đơn hàng bán <b>:name</b> của bạn đã bị hủy. Do đó, sẽ không có khoản phí nào được áp dụng cho đơn hàng này. Nếu cần hoàn tiền, chúng tôi sẽ xử lý trong thời gian sớm nhất.<br/><br/>Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ thêm, vui lòng liên hệ với chúng tôi.',
         ],
     ],
 ];
-

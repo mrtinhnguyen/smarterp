@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 return [
     'title'      => 'Loại nghỉ phép',
@@ -28,14 +28,14 @@ return [
                 'title' => 'Cấu hình',
 
                 'fields' => [
-                    'notified-time-off-officers'          => 'Nhân viên nghỉ phép được thông báo',
+                    'notified-time-off-officers'          => 'Cán bộ quản lý nghỉ phép được thông báo',
                     'take-time-off-in'                    => 'Nghỉ phép theo',
-                    'public-holiday-included'             => 'Bao gồm ngày lễ',
+                    'public-holiday-included'             => 'Bao gồm ngày lễ công cộng',
                     'allow-to-attach-supporting-document' => 'Cho phép đính kèm tài liệu hỗ trợ',
                     'show-on-dashboard'                   => 'Hiển thị trên bảng điều khiển',
-                    'allow-negative-cap'                  => 'Cho phép âm',
+                    'allow-negative-cap'                  => 'Cho phép số dư âm',
                     'kind-off-time'                       => 'Loại thời gian',
-                    'max-negative-cap'                    => 'Mức âm tối đa',
+                    'max-negative-cap'                    => 'Số dư âm tối đa',
                     'kind-of-time'                        => 'Loại nghỉ phép',
                 ],
             ],
@@ -47,7 +47,7 @@ return [
             'name'                      => 'Tên',
             'company-name'              => 'Công ty',
             'color'                     => 'Màu sắc',
-            'notified-time-officers'    => 'Nhân viên thời gian được thông báo',
+            'notified-time-officers'    => 'Cán bộ quản lý thời gian được thông báo',
             'time-off-approval'         => 'Phê duyệt nghỉ phép',
             'requires-allocation'       => 'Yêu cầu phân bổ',
             'allocation-approval'       => 'Phê duyệt phân bổ',
@@ -61,19 +61,19 @@ return [
             'requires-allocation' => 'Yêu cầu phân bổ',
             'time-type'           => 'Loại thời gian',
             'request-unit'        => 'Đơn vị yêu cầu',
-            'created-by'          => 'Tạo bởi',
+            'created-by'          => 'Được tạo bởi',
         ],
 
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Loại nghỉ phép đã xóa',
+                    'title' => 'Loại nghỉ phép đã được xóa',
                     'body'  => 'Loại nghỉ phép đã được xóa thành công.',
                 ],
             ],
             'restore' => [
                 'notification' => [
-                    'title' => 'Loại nghỉ phép đã khôi phục',
+                    'title' => 'Loại nghỉ phép đã được khôi phục',
                     'body'  => 'Loại nghỉ phép đã được khôi phục thành công.',
                 ],
             ],
@@ -82,14 +82,14 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Loại nghỉ phép đã khôi phục',
+                    'title' => 'Loại nghỉ phép đã được khôi phục',
                     'body'  => 'Loại nghỉ phép đã được khôi phục thành công.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Loại nghỉ phép đã xóa',
+                    'title' => 'Loại nghỉ phép đã được xóa',
                     'body'  => 'Loại nghỉ phép đã được xóa thành công.',
                 ],
             ],
@@ -97,12 +97,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Loại nghỉ phép đã xóa vĩnh viễn',
+                        'title' => 'Loại nghỉ phép đã được xóa vĩnh viễn',
                         'body'  => 'Loại nghỉ phép đã được xóa vĩnh viễn thành công.',
                     ],
                     'error' => [
                         'title' => 'Không thể xóa loại nghỉ phép',
-                        'body'  => 'Loại nghỉ phép không thể xóa vì đang được sử dụng.',
+                        'body'  => 'Loại nghỉ phép không thể được xóa vì đang được sử dụng.',
                     ],
                 ],
             ],
@@ -131,13 +131,13 @@ return [
                 'title' => 'Cấu hình',
 
                 'entries' => [
-                    'notified-time-off-officers'          => 'Nhân viên nghỉ phép được thông báo',
+                    'notified-time-off-officers'          => 'Cán bộ quản lý nghỉ phép được thông báo',
                     'take-time-off-in'                    => 'Nghỉ phép theo',
-                    'public-holiday-included'             => 'Bao gồm ngày lễ',
+                    'public-holiday-included'             => 'Bao gồm ngày lễ công cộng',
                     'allow-to-attach-supporting-document' => 'Cho phép đính kèm tài liệu hỗ trợ',
                     'show-on-dashboard'                   => 'Hiển thị trên bảng điều khiển',
                     'kind-off-time'                       => 'Loại thời gian',
-                    'max-negative-cap'                    => 'Mức âm tối đa',
+                    'max-negative-cap'                    => 'Số dư âm tối đa',
                     'kind-of-time'                        => 'Loại nghỉ phép',
                 ],
             ],

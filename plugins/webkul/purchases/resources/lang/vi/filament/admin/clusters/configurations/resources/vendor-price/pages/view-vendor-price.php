@@ -2,20 +2,20 @@
 
 return [
     'navigation' => [
-        'title' => 'View Vendor Price List',
+        'title' => 'Xem bảng giá nhà cung cấp',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Gia nha cung cap da duoc xoa',
-                    'body'  => 'Gia nha cung cap da duoc xoa thanh cong.',
+                    'title' => 'Bảng giá nhà cung cấp đã được xóa',
+                    'body'  => 'Bảng giá nhà cung cấp đã được xóa thành công.',
                 ],
 
                 'error' => [
-                    'title' => 'Vendor Price could not be deleted',
-                    'body'  => 'The vendor price cannot be deleted because it is currently in use.',
+                    'title' => 'Không thể xóa bảng giá nhà cung cấp',
+                    'body'  => 'Bảng giá nhà cung cấp không thể được xóa vì đang được sử dụng.',
                 ],
             ],
         ],

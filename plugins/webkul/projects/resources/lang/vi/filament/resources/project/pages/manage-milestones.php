@@ -1,38 +1,16 @@
-﻿<?php
+<?php
 
 return [
-    'navigation' => [
-        'title' => 'Cột mốc',
-        'group' => 'Dự án',
-    ],
-    'form' => [
-        'sections' => [
-            'general' => [
-                'title' => 'Thông tin chung',
-                'fields' => [
-                    'name' => 'Tên',
-                    'description' => 'Mô tả',
-                ],
-            ],
-        ],
-    ],
+    'title' => 'Cột mốc',
+
     'table' => [
-        'columns' => [
-            'name' => 'Tên',
-            'created-at' => 'Tạo lúc',
-            'updated-at' => 'Cập nhật lúc',
-        ],
-        'actions' => [
-            'edit' => [
+        'header-actions' => [
+            'create' => [
+                'label' => 'Thêm cột mốc dự án',
+
                 'notification' => [
-                    'title' => 'Đã cập nhật',
-                    'body' => 'Đã được cập nhật thành công.',
-                ],
-            ],
-            'delete' => [
-                'notification' => [
-                    'title' => 'Đã xóa',
-                    'body' => 'Đã được xóa thành công.',
+                    'title' => 'Cột mốc đã được tạo',
+                    'body'  => 'Cột mốc đã được tạo thành công.',
                 ],
             ],
         ],

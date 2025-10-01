@@ -2,31 +2,31 @@
 
 return [
     'notification' => [
-        'title' => 'Hop dong mua hang da duoc cap nhat',
-        'body'  => 'Hop dong mua hang da duoc cap nhat thanh cong.',
+        'title' => 'Hợp đồng mua hàng đã được cập nhật',
+        'body'  => 'Hợp đồng mua hàng đã được cập nhật thành công.',
     ],
 
     'header-actions' => [
         'confirm' => [
-            'label' => 'Confirm',
+            'label' => 'Xác nhận',
         ],
 
         'close' => [
-            'label' => 'Close',
+            'label' => 'Đóng',
         ],
 
         'cancel' => [
-            'label' => 'Cancel',
+            'label' => 'Hủy',
         ],
 
         'print' => [
-            'label' => 'Print',
+            'label' => 'In',
         ],
 
         'delete' => [
             'notification' => [
-                'title' => 'Hop dong mua hang da duoc xoa',
-                'body'  => 'Hop dong mua hang da duoc xoa thanh cong.',
+                'title' => 'Hợp đồng mua hàng đã được xóa',
+                'body'  => 'Hợp đồng mua hàng đã được xóa thành công.',
             ],
         ],
     ],

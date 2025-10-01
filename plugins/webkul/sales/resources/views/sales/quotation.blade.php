@@ -270,14 +270,14 @@
             <tr>
                 @if ($record->date_order)
                     <td width="33%">
-                        <strong>{{ $title }} Date</strong><br>
+                        <strong>Ngày {{ $title }}</strong><br>
                         {{ $record->date_order }}
                     </td>
                 @endif
 
                 @if ($record->validity_date)
                     <td width="33%">
-                        <strong>Expiration Date</strong><br>
+                        <strong>Ngày hết hạn</strong><br>
                         {{ $record->validity_date }}
                     </td>
                 @endif
@@ -289,14 +289,14 @@
             <table class="items-table">
                 <thead>
                     <tr>
-                        <th>Product</th>
-                        <th>Quantity</th>
+                        <th>Sản phẩm</th>
+                        <th>Số lượng</th>
 
                         @if (app(\Webkul\Sale\Settings\ProductSettings::class)->enable_uom)
-                            <th>Unit</th>
+                            <th>Đơn vị</th>
                         @endif
 
-                        <th>Unit Price</th>
+                        <th>Đơn giá</th>
                     </tr>
                 </thead>
 
@@ -321,23 +321,23 @@
             <table class="ltr">
                 <tbody>
                     <tr>
-                        <td>Subtotal</td>
+                        <td>Tổng tiền chưa thuế</td>
                         <td>-</td>
                         <td>{{ $record->currency->symbol }} {{ number_format($record->amount_untaxed, 2) }}</td>
                     </tr>
                     <tr>
-                        <td>Tax</td>
+                        <td>Thuế</td>
                         <td>-</td>
                         <td>{{ $record->currency->symbol }} {{ number_format($record->amount_tax, 2) }}</td>
                     </tr>
                     <tr>
-                        <td>Discount</td>
+                        <td>Giảm giá</td>
                         <td>-</td>
                         <td>-{{ $record->currency->symbol }} {{ number_format($record->total_discount, 2) }}</td>
                     </tr>
                     <tr>
                         <td style="border-top: 1px solid #FFFFFF;">
-                            <b>Grand Total</b>
+                            <b>Tổng cộng</b>
                         </td>
                         <td style="border-top: 1px solid #FFFFFF;">-</td>
                         <td style="border-top: 1px solid #FFFFFF;">
@@ -351,12 +351,12 @@
         <!-- Payment Information Section -->
         @if ($record->name)
             <div class="payment-info">
-                <div class="payment-info-title">Payment Information</div>
+                <div class="payment-info-title">Thông tin thanh toán</div>
                 <div>
-                    Payment Communication: {{ $record->name }}
+                    Giao tiếp thanh toán: {{ $record->name }}
                     @if ($record?->partnerBank?->bank?->name || $record?->partnerBank?->account_number)
                         <br>
-                        <span class="payment-info-details">on this account details:</span>
+                        <span class="payment-info-details">với thông tin tài khoản:</span>
                         {{ $record?->partnerBank?->bank?->name ?? 'N/A' }}
                         ({{ $record?->partnerBank?->account_number ?? 'N/A' }})
                     @endif

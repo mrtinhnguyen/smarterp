@@ -1,18 +1,17 @@
-﻿<?php
+<?php
 
 return [
     'notification' => [
-        'title' => 'Thuoc tinh da duoc cap nhat',
-        'body'  => 'Thuoc tinh da duoc cap nhat thanh cong.',
+        'title' => 'Thuộc tính đã được cập nhật',
+        'body'  => 'Thuộc tính đã được cập nhật thành công.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Thuoc tinh da duoc xoa',
-                'body'  => 'Thuoc tinh da duoc xoa thanh cong.',
+                'title' => 'Thuộc tính đã được xóa',
+                'body'  => 'Thuộc tính đã được xóa thành công.',
             ],
         ],
     ],
 ];
-

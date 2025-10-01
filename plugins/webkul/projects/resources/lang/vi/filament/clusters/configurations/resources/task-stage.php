@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Giai đoạn công việc',
+        'title' => 'Giai đoạn nhiệm vụ',
     ],
 
     'form' => [
@@ -30,34 +30,34 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Giai đoạn công việc đã cập nhật',
-                    'body'  => 'Giai đoạn công việc đã được cập nhật thành công.',
+                    'title' => 'Giai đoạn nhiệm vụ đã được cập nhật',
+                    'body'  => 'Giai đoạn nhiệm vụ đã được cập nhật thành công.',
                 ],
             ],
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Giai đoạn công việc đã khôi phục',
-                    'body'  => 'Giai đoạn công việc đã được khôi phục thành công.',
+                    'title' => 'Giai đoạn nhiệm vụ đã được khôi phục',
+                    'body'  => 'Giai đoạn nhiệm vụ đã được khôi phục thành công.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Giai đoạn công việc đã xóa',
-                    'body'  => 'Giai đoạn công việc đã được xóa thành công.',
+                    'title' => 'Giai đoạn nhiệm vụ đã được xóa',
+                    'body'  => 'Giai đoạn nhiệm vụ đã được xóa thành công.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Giai đoạn công việc đã xóa vĩnh viễn',
-                        'body'  => 'Giai đoạn công việc đã được xóa vĩnh viễn thành công.',
+                        'title' => 'Giai đoạn nhiệm vụ đã được xóa vĩnh viễn',
+                        'body'  => 'Giai đoạn nhiệm vụ đã được xóa vĩnh viễn thành công.',
                     ],
                     'error' => [
-                        'title' => 'Không thể xóa giai đoạn công việc',
-                        'body'  => 'Giai đoạn công việc không thể bị xóa vì đang được sử dụng.',
+                        'title' => 'Không thể xóa giai đoạn nhiệm vụ',
+                        'body'  => 'Giai đoạn nhiệm vụ không thể được xóa vì đang được sử dụng.',
                     ],
                 ],
             ],
@@ -66,22 +66,22 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Các giai đoạn công việc đã khôi phục',
-                    'body'  => 'Các giai đoạn công việc đã được khôi phục thành công.',
+                    'title' => 'Các giai đoạn nhiệm vụ đã được khôi phục',
+                    'body'  => 'Các giai đoạn nhiệm vụ đã được khôi phục thành công.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Các giai đoạn công việc đã xóa',
-                    'body'  => 'Các giai đoạn công việc đã được xóa thành công.',
+                    'title' => 'Các giai đoạn nhiệm vụ đã được xóa',
+                    'body'  => 'Các giai đoạn nhiệm vụ đã được xóa thành công.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Các giai đoạn công việc đã xóa vĩnh viễn',
-                    'body'  => 'Các giai đoạn công việc đã được xóa vĩnh viễn thành công.',
+                    'title' => 'Các giai đoạn nhiệm vụ đã được xóa vĩnh viễn',
+                    'body'  => 'Các giai đoạn nhiệm vụ đã được xóa vĩnh viễn thành công.',
                 ],
             ],
         ],

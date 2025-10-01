@@ -3,13 +3,13 @@
 return [
     'header-actions' => [
         'print' => [
-            'label' => 'Print',
+            'label' => 'In',
         ],
 
         'delete' => [
             'notification' => [
-                'title' => 'Purchase Agreement Deleted',
-                'body'  => 'Hop dong mua hang da duoc xoa thanh cong.',
+                'title' => 'Hợp đồng mua hàng đã được xóa',
+                'body'  => 'Hợp đồng mua hàng đã được xóa thành công.',
             ],
         ],
     ],

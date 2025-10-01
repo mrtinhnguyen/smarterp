@@ -78,13 +78,13 @@
                 @endphp
 
                <div class="invoice-item">
-                    <span>Untaxed Amount</span>
+                    <span>Số tiền chưa thuế</span>
                     <span>{{ money($subTotal, $currency?->name) }}</span>
                 </div>
 
                 @if ($totalTax > 0)
                     <div class="invoice-item">
-                        <span>Tax</span>
+                        <span>Thuế</span>
                         <span>{{ money($totalTax, $currency?->name) }}</span>
                     </div>
                 @endif
@@ -92,13 +92,13 @@
                 <div class="divider"></div>
 
                 <div class="invoice-item font-bold">
-                    <span>Total</span>
+                    <span>Tổng cộng</span>
                     <span>{{ money($grandTotal, $currency?->name) }}</span>
                 </div>
 
                 @if ($enableMargin)
                     <div class="invoice-item font-bold">
-                        <span>Margin</span>
+                        <span>Biên lợi nhuận</span>
                         <span>{{ number_format($margin, 2) }} ({{ number_format($marginPercentage, 2) }} %)</span>
                     </div>
                 @endif

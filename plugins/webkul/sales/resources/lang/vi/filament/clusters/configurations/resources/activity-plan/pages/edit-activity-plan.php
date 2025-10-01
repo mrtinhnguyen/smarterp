@@ -2,17 +2,16 @@
 
 return [
     'notification' => [
-        'title' => 'Activity Plan updated',
-        'body'  => 'The activity plan has been updated successfully.',
+        'title' => 'Kế hoạch hoạt động đã cập nhật',
+        'body'  => 'Kế hoạch hoạt động đã được cập nhật thành công.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Activity Plan deleted',
-                'body'  => 'The activity plan has been deleted successfully.',
+                'title' => 'Kế hoạch hoạt động đã xóa',
+                'body'  => 'Kế hoạch hoạt động đã được xóa thành công.',
             ],
         ],
     ],
 ];
-

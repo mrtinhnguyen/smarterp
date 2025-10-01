@@ -2,8 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Sales Team created',
-        'body'  => 'The sales team has been created successfully.',
+        'title' => 'Đội bán hàng đã tạo',
+        'body'  => 'Đội bán hàng đã được tạo thành công.',
     ],
 ];
-

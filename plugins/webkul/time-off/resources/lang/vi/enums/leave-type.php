@@ -2,7 +2,7 @@
 
 return [
     'no-validation'                              => 'Không xác thực',
-    'by-time-off-officer'                        => 'Bởi Nhân viên Nghỉ phép',
-    'by-employees-approver'                      => 'Bởi Người phê duyệt Nhân viên',
-    'by-employees-approver-and-time-off-officer' => 'Bởi Người phê duyệt Nhân viên và Nhân viên Nghỉ phép',
+    'by-time-off-officer'                        => 'Bởi nhân viên quản lý nghỉ phép',
+    'by-employees-approver'                      => 'Bởi người phê duyệt của nhân viên',
+    'by-employees-approver-and-time-off-officer' => 'Bởi người phê duyệt của nhân viên và nhân viên quản lý nghỉ phép',
 ];

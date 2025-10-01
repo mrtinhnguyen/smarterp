@@ -1,18 +1,18 @@
-﻿<?php
+<?php
 
 return [
-    'title' => 'Ngày lễ',
+    'title' => 'Ngày lễ công cộng',
 
-    'model-label' => 'Ngày lễ',
+    'model-label' => 'Ngày lễ công cộng',
 
     'navigation' => [
-        'title' => 'Ngày lễ',
+        'title' => 'Ngày lễ công cộng',
     ],
 
     'form' => [
         'fields' => [
             'name'             => 'Tên',
-            'name-placeholder' => 'Nhập tên ngày lễ',
+            'name-placeholder' => 'Nhập tên ngày lễ công cộng',
             'date-from'        => 'Ngày bắt đầu',
             'date-to'          => 'Ngày kết thúc',
             'color'            => 'Màu sắc',
@@ -25,7 +25,7 @@ return [
             'name'         => 'Tên',
             'company-name' => 'Tên công ty',
             'calendar'     => 'Lịch',
-            'created-by'   => 'Tạo bởi',
+            'created-by'   => 'Được tạo bởi',
             'date-from'    => 'Ngày bắt đầu',
             'date-to'      => 'Ngày kết thúc',
         ],
@@ -33,17 +33,17 @@ return [
         'filters' => [
             'name'         => 'Tên',
             'company-name' => 'Tên công ty',
-            'created-by'   => 'Tạo bởi',
+            'created-by'   => 'Được tạo bởi',
             'date-from'    => 'Ngày bắt đầu',
             'date-to'      => 'Ngày kết thúc',
-            'created-at'   => 'Tạo lúc',
-            'updated-at'   => 'Cập nhật lúc',
+            'created-at'   => 'Ngày tạo',
+            'updated-at'   => 'Ngày cập nhật',
         ],
 
         'groups' => [
             'name'         => 'Tên',
             'company-name' => 'Tên công ty',
-            'created-by'   => 'Tạo bởi',
+            'created-by'   => 'Được tạo bởi',
             'date-from'    => 'Ngày bắt đầu',
             'date-to'      => 'Ngày kết thúc',
         ],
@@ -51,15 +51,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Ngày lễ đã cập nhật',
-                    'body'  => 'Ngày lễ đã được cập nhật thành công.',
+                    'title' => 'Ngày lễ công cộng đã được cập nhật',
+                    'body'  => 'Ngày lễ công cộng đã được cập nhật thành công.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Ngày lễ đã xóa',
-                    'body'  => 'Ngày lễ đã được xóa thành công.',
+                    'title' => 'Ngày lễ công cộng đã được xóa',
+                    'body'  => 'Ngày lễ công cộng đã được xóa thành công.',
                 ],
             ],
         ],
@@ -67,8 +67,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Các ngày lễ đã xóa',
-                    'body'  => 'Các ngày lễ đã được xóa thành công.',
+                    'title' => 'Các ngày lễ công cộng đã được xóa',
+                    'body'  => 'Các ngày lễ công cộng đã được xóa thành công.',
                 ],
             ],
         ],

@@ -1,13 +1,13 @@
 ﻿<?php
 
 return [
-    'label' => 'Unlock',
+    'label' => 'Mở khóa',
 
     'action' => [
         'notification' => [
             'success' => [
-                'title' => 'Order unlock',
-                'body'  => 'The order has been unlock successfully.',
+                'title' => 'Đơn hàng đã được mở khóa',
+                'body'  => 'Đơn hàng đã được mở khóa thành công.',
             ],
         ],
     ],

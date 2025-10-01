@@ -2,12 +2,12 @@
 
 return [
     'navigation' => [
-        'title' => 'Create Vendor Price List',
+        'title' => 'Tạo bảng giá nhà cung cấp',
     ],
 
     'notification' => [
-        'title' => 'Gia nha cung cap da duoc tao',
-        'body'  => 'Gia nha cung cap da duoc tao thanh cong.',
+        'title' => 'Bảng giá nhà cung cấp đã được tạo',
+        'body'  => 'Bảng giá nhà cung cấp đã được tạo thành công.',
     ],
 ];
 

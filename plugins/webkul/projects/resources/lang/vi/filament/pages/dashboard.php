@@ -8,8 +8,8 @@ return [
 
     'filters-form' => [
         'project'    => 'Dự án',
-        'assignees'  => 'Người được giao',
-        'tags'       => 'Thẻ',
+        'assignees'  => 'Người được phân công',
+        'tags'       => 'Nhãn',
         'customer'   => 'Khách hàng',
         'start-date' => 'Ngày bắt đầu',
         'end-date'   => 'Ngày kết thúc',

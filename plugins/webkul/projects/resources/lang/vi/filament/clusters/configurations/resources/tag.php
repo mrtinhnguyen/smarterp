@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Thẻ',
+        'title' => 'Nhãn',
     ],
 
     'form' => [
@@ -21,29 +21,29 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Thẻ đã cập nhật',
-                    'body'  => 'Thẻ đã được cập nhật thành công.',
+                    'title' => 'Nhãn đã được cập nhật',
+                    'body'  => 'Nhãn đã được cập nhật thành công.',
                 ],
             ],
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Thẻ đã khôi phục',
-                    'body'  => 'Thẻ đã được khôi phục thành công.',
+                    'title' => 'Nhãn đã được khôi phục',
+                    'body'  => 'Nhãn đã được khôi phục thành công.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Thẻ đã xóa',
-                    'body'  => 'Thẻ đã được xóa thành công.',
+                    'title' => 'Nhãn đã được xóa',
+                    'body'  => 'Nhãn đã được xóa thành công.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Thẻ đã xóa vĩnh viễn',
-                    'body'  => 'Thẻ đã được xóa vĩnh viễn thành công.',
+                    'title' => 'Nhãn đã được xóa vĩnh viễn',
+                    'body'  => 'Nhãn đã được xóa vĩnh viễn thành công.',
                 ],
             ],
         ],
@@ -51,22 +51,22 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Các thẻ đã khôi phục',
-                    'body'  => 'Các thẻ đã được khôi phục thành công.',
+                    'title' => 'Các nhãn đã được khôi phục',
+                    'body'  => 'Các nhãn đã được khôi phục thành công.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Các thẻ đã xóa',
-                    'body'  => 'Các thẻ đã được xóa thành công.',
+                    'title' => 'Các nhãn đã được xóa',
+                    'body'  => 'Các nhãn đã được xóa thành công.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Các thẻ đã xóa vĩnh viễn',
-                    'body'  => 'Các thẻ đã được xóa vĩnh viễn thành công.',
+                    'title' => 'Các nhãn đã được xóa vĩnh viễn',
+                    'body'  => 'Các nhãn đã được xóa vĩnh viễn thành công.',
                 ],
             ],
         ],

@@ -28,21 +28,21 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Kế hoạch hoạt động đã khôi phục',
+                    'title' => 'Kế hoạch hoạt động đã được khôi phục',
                     'body'  => 'Kế hoạch hoạt động đã được khôi phục thành công.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Kế hoạch hoạt động đã xóa',
+                    'title' => 'Kế hoạch hoạt động đã được xóa',
                     'body'  => 'Kế hoạch hoạt động đã được xóa thành công.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Kế hoạch hoạt động đã xóa vĩnh viễn',
+                    'title' => 'Kế hoạch hoạt động đã được xóa vĩnh viễn',
                     'body'  => 'Kế hoạch hoạt động đã được xóa vĩnh viễn thành công.',
                 ],
             ],
@@ -51,21 +51,21 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Các kế hoạch hoạt động đã khôi phục',
+                    'title' => 'Các kế hoạch hoạt động đã được khôi phục',
                     'body'  => 'Các kế hoạch hoạt động đã được khôi phục thành công.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Các kế hoạch hoạt động đã xóa',
+                    'title' => 'Các kế hoạch hoạt động đã được xóa',
                     'body'  => 'Các kế hoạch hoạt động đã được xóa thành công.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Các kế hoạch hoạt động đã xóa vĩnh viễn',
+                    'title' => 'Các kế hoạch hoạt động đã được xóa vĩnh viễn',
                     'body'  => 'Các kế hoạch hoạt động đã được xóa vĩnh viễn thành công.',
                 ],
             ],
@@ -74,7 +74,7 @@ return [
         'empty-state' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Kế hoạch hoạt động đã tạo',
+                    'title' => 'Kế hoạch hoạt động đã được tạo',
                     'body'  => 'Kế hoạch hoạt động đã được tạo thành công.',
                 ],
             ],

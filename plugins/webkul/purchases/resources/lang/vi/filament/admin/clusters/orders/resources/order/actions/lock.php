@@ -1,13 +1,13 @@
 ﻿<?php
 
 return [
-    'label' => 'Lock',
+    'label' => 'Khóa',
 
     'action' => [
         'notification' => [
             'success' => [
-                'title' => 'Order locked',
-                'body'  => 'The order has been locked successfully.',
+                'title' => 'Đơn hàng đã được khóa',
+                'body'  => 'Đơn hàng đã được khóa thành công.',
             ],
         ],
     ],

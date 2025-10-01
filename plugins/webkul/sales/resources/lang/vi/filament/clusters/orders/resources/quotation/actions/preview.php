@@ -1,6 +1,5 @@
 ﻿<?php
 
 return [
-    'title' => 'Preview',
+    'title' => 'Xem trước',
 ];
-

@@ -2,37 +2,37 @@
 
 return [
     'navigation' => [
-        'title' => 'TiÃªu Ä‘á»',
-        'group' => 'NhÃ³m',
+        'title' => 'Kỹ năng nhân viên',
+        'group' => 'Báo cáo',
     ],
     'form' => [
         'sections' => [
             'general' => [
-                'title' => 'ThÃ´ng tin chung',
+                'title' => 'Thông tin chung',
                 'fields' => [
-                    'name' => 'TÃªn',
-                    'description' => 'MÃ´ táº£',
+                    'name' => 'Tên',
+                    'description' => 'Mô tả',
                 ],
             ],
         ],
     ],
     'table' => [
         'columns' => [
-            'name' => 'TÃªn',
-            'created-at' => 'Táº¡o lÃºc',
-            'updated-at' => 'Cáº­p nháº­t lÃºc',
+            'name' => 'Tên',
+            'created-at' => 'Tạo lúc',
+            'updated-at' => 'Cập nhật lúc',
         ],
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'ÄÃ£ cáº­p nháº­t',
-                    'body' => 'ÄÃ£ Ä‘Æ°á»£c cáº­p nháº­t thÃ nh cÃ´ng.',
+                    'title' => 'Đã cập nhật',
+                    'body' => 'Đã được cập nhật thành công.',
                 ],
             ],
             'delete' => [
                 'notification' => [
-                    'title' => 'ÄÃ£ xÃ³a',
-                    'body' => 'ÄÃ£ Ä‘Æ°á»£c xÃ³a thÃ nh cÃ´ng.',
+                    'title' => 'Đã xóa',
+                    'body' => 'Đã được xóa thành công.',
                 ],
             ],
         ],

@@ -1,5 +1,6 @@
 ﻿<?php
 
 return [
-    // TODO: Add Vietnamese translations
+    'yes' => 'Có',
+    'no'  => 'Không giới hạn',
 ];

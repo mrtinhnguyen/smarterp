@@ -1,17 +1,16 @@
-﻿<?php
+<?php
 
 return [
     'notification' => [
-        'title' => 'Danh muc da duoc tao',
-        'body'  => 'Danh muc da duoc tao thanh cong.',
+        'title' => 'Danh mục đã được tạo',
+        'body'  => 'Danh mục đã được tạo thành công.',
     ],
 
     'create' => [
         'notification' => [
             'error' => [
-                'title' => 'Category updated failed',
+                'title' => 'Tạo danh mục thất bại',
             ],
         ],
     ],
 ];
-

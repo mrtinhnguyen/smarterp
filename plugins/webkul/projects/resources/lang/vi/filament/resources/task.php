@@ -1,59 +1,56 @@
 <?php
 
 return [
-    'title' => 'Nhiệm vụ',
+    'title' => 'Tasks',
 
     'navigation' => [
-        'title' => 'Nhiệm vụ',
-        'group' => 'Dự án',
+        'title' => 'Tasks',
+        'group' => 'Project',
     ],
 
     'global-search' => [
-        'project'   => 'Dự án',
-        'customer'  => 'Khách hàng',
-        'milestone' => 'Cột mốc',
+        'project'   => 'Project',
+        'customer'  => 'Customer',
+        'milestone' => 'Milestone',
     ],
 
     'form' => [
         'sections' => [
             'general' => [
-                'title' => 'Thông tin chung',
+                'title' => 'General',
 
                 'fields' => [
-                    'title'             => 'Tiêu đề',
-                    'title-placeholder' => 'Tiêu đề nhiệm vụ...',
-                    'tags'              => 'Thẻ',
-                    'name'              => 'Tên',
-                    'color'             => 'Màu sắc',
-                    'description'       => 'Mô tả',
-                    'project'           => 'Dự án',
-                    'status'            => 'Trạng thái',
-                    'start_date'        => 'Ngày bắt đầu',
-                    'end_date'          => 'Ngày kết thúc',
+                    'title'             => 'Title',
+                    'title-placeholder' => 'Task Title...',
+                    'tags'              => 'Tags',
+                    'name'              => 'Name',
+                    'color'             => 'Color',
+                    'description'       => 'Description',
+                    'project'           => 'Project',
+                    'status'            => 'Status',
+                    'start_date'        => 'Start Date',
+                    'end_date'          => 'End Date',
                 ],
             ],
 
             'additional' => [
-                'title' => 'Thông tin bổ sung',
+                'title' => 'Additional Information',
             ],
 
             'settings' => [
-                'title' => 'Cài đặt',
+                'title' => 'Settings',
 
                 'fields' => [
-                    'project'                     => 'Dự án',
-                    'milestone'                   => 'Cột mốc',
-                    'milestone-hint-text'         => 'Tự động giao dịch vụ của bạn khi đạt được cột mốc bằng cách liên kết nó với một mục đơn hàng bán.',
-                    'name'                        => 'Tên',
-                    'deadline'                    => 'Hạn chót',
-                    'is-completed'                => 'Đã hoàn thành',
-                    'customer'                    => 'Khách hàng',
-                    'assigned-to'                 => 'Giao cho',
-                    'assigned-to-hint-text'       => 'Người được giao nhiệm vụ này.',
-                    'priority'                    => 'Ưu tiên',
-                    'priority-hint-text'          => 'Mức độ ưu tiên của nhiệm vụ.',
-                    'tags'                        => 'Thẻ',
-                    'company'                     => 'Công ty',
+                    'project'                     => 'Project',
+                    'milestone'                   => 'Milestone',
+                    'milestone-hint-text'         => 'Automatically deliver your services upon reaching a milestone by linking it to a sales order item.',
+                    'name'                        => 'Name',
+                    'deadline'                    => 'Deadline',
+                    'is-completed'                => 'Is Completed',
+                    'customer'                    => 'Customer',
+                    'assignees'                   => 'Assignees',
+                    'allocated-hours'             => 'Allocated Hours',
+                    'allocated-hours-helper-text' => 'In hours (Eg. 1.5 hours means 1 hour 30 minutes)',
                 ],
             ],
         ],
@@ -61,92 +58,102 @@ return [
 
     'table' => [
         'columns' => [
-            'title'        => 'Tiêu đề',
-            'project'      => 'Dự án',
-            'assigned-to'  => 'Giao cho',
-            'deadline'     => 'Hạn chót',
-            'priority'     => 'Ưu tiên',
-            'status'       => 'Trạng thái',
-            'is-completed' => 'Đã hoàn thành',
-            'customer'     => 'Khách hàng',
-            'created-at'   => 'Được tạo lúc',
-            'updated-at'   => 'Được cập nhật lúc',
+            'id'                  => 'ID',
+            'priority'            => 'Priority',
+            'state'               => 'State',
+            'new-state'           => 'New State',
+            'update-state'        => 'Update State',
+            'title'               => 'Title',
+            'project'             => 'Project',
+            'project-placeholder' => 'Private Task',
+            'milestone'           => 'Milestone',
+            'customer'            => 'Customer',
+            'assignees'           => 'Assignees',
+            'allocated-time'      => 'Allocated Time',
+            'time-spent'          => 'Time Spent',
+            'time-remaining'      => 'Time Remaining',
+            'progress'            => 'Progress',
+            'deadline'            => 'Deadline',
+            'tags'                => 'Tags',
+            'stage'               => 'Stage',
         ],
 
         'groups' => [
-            'project'      => 'Dự án',
-            'assigned-to'  => 'Giao cho',
-            'priority'     => 'Ưu tiên',
-            'status'       => 'Trạng thái',
-            'is-completed' => 'Đã hoàn thành',
-            'customer'     => 'Khách hàng',
-            'created-at'   => 'Được tạo lúc',
+            'state'      => 'State',
+            'project'    => 'Project',
+            'milestone'  => 'Milestone',
+            'customer'   => 'Customer',
+            'deadline'   => 'Deadline',
+            'stage'      => 'Stage',
+            'created-at' => 'Created At',
         ],
 
         'filters' => [
-            'title'        => 'Tiêu đề',
-            'project'      => 'Dự án',
-            'assigned-to'  => 'Giao cho',
-            'deadline'     => 'Hạn chót',
-            'priority'     => 'Ưu tiên',
-            'status'       => 'Trạng thái',
-            'is-completed' => 'Đã hoàn thành',
-            'customer'     => 'Khách hàng',
-            'created-at'   => 'Được tạo lúc',
-            'updated-at'   => 'Được cập nhật lúc',
-            'milestone'    => 'Cột mốc',
-            'company'      => 'Công ty',
-            'creator'      => 'Người tạo',
-            'tags'         => 'Thẻ',
+            'title'             => 'Title',
+            'priority'          => 'Priority',
+            'low'               => 'Low',
+            'high'              => 'High',
+            'state'             => 'State',
+            'tags'              => 'Tags',
+            'allocated-hours'   => 'Allocated Hours',
+            'total-hours-spent' => 'Total Hours Spent',
+            'remaining-hours'   => 'Remaining Hours',
+            'overtime'          => 'Overtime',
+            'progress'          => 'Progress',
+            'deadline'          => 'Deadline',
+            'created-at'        => 'Created At',
+            'updated-at'        => 'Updated At',
+            'assignees'         => 'Assignees',
+            'customer'          => 'Customer',
+            'project'           => 'Project',
+            'stage'             => 'Stage',
+            'milestone'         => 'Milestone',
+            'company'           => 'Company',
+            'creator'           => 'Creator',
         ],
 
         'actions' => [
-            'create' => [
-                'label' => 'Tạo nhiệm vụ',
-            ],
-
-            'edit' => [
-                'label' => 'Chỉnh sửa',
-                'notification' => [
-                    'title' => 'Nhiệm vụ đã được cập nhật',
-                    'body'  => 'Nhiệm vụ đã được cập nhật thành công.',
-                ],
-            ],
-
             'restore' => [
                 'notification' => [
-                    'title' => 'Nhiệm vụ đã được khôi phục',
-                    'body'  => 'Nhiệm vụ đã được khôi phục thành công.',
+                    'title' => 'Task restored',
+                    'body'  => 'The task has been restored successfully.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Nhiệm vụ đã được xóa',
-                    'body'  => 'Nhiệm vụ đã được xóa thành công.',
+                    'title' => 'Task deleted',
+                    'body'  => 'The task has been deleted successfully.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'success' => [
-                        'title' => 'Nhiệm vụ đã được xóa vĩnh viễn',
-                        'body'  => 'Nhiệm vụ đã được xóa vĩnh viễn thành công.',
-                    ],
-
-                    'error' => [
-                        'title' => 'Không thể xóa vĩnh viễn nhiệm vụ',
-                        'body'  => 'Nhiệm vụ được liên kết với các bản ghi khác.',
-                    ],
+                    'title' => 'Task force deleted',
+                    'body'  => 'The task has been force deleted successfully.',
                 ],
             ],
         ],
 
         'bulk-actions' => [
+            'restore' => [
+                'notification' => [
+                    'title' => 'Tasks restored',
+                    'body'  => 'The tasks has been restored successfully.',
+                ],
+            ],
+
             'delete' => [
                 'notification' => [
-                    'title' => 'Các nhiệm vụ đã được xóa',
-                    'body'  => 'Các nhiệm vụ đã được xóa thành công.',
+                    'title' => 'Tasks deleted',
+                    'body'  => 'The tasks has been deleted successfully.',
+                ],
+            ],
+
+            'force-delete' => [
+                'notification' => [
+                    'title' => 'Tasks force deleted',
+                    'body'  => 'The tasks has been force deleted successfully.',
                 ],
             ],
         ],
@@ -155,36 +162,63 @@ return [
     'infolist' => [
         'sections' => [
             'general' => [
-                'title' => 'Thông tin chung',
+                'title' => 'General',
 
                 'entries' => [
-                    'title'       => 'Tiêu đề',
-                    'description' => 'Mô tả',
-                    'project'     => 'Dự án',
-                    'status'      => 'Trạng thái',
+                    'title'       => 'Title',
+                    'state'       => 'State',
+                    'tags'        => 'Tags',
+                    'priority'    => 'Priority',
+                    'description' => 'Description',
                 ],
             ],
 
-            'additional' => [
-                'title' => 'Thông tin bổ sung',
+            'project-information' => [
+                'title' => 'Project Information',
 
                 'entries' => [
-                    'assigned-to' => 'Giao cho',
-                    'deadline'    => 'Hạn chót',
-                    'priority'    => 'Ưu tiên',
-                    'milestone'   => 'Cột mốc',
-                    'customer'    => 'Khách hàng',
-                    'tags'        => 'Thẻ',
+                    'project'   => 'Project',
+                    'milestone' => 'Milestone',
+                    'customer'  => 'Customer',
+                    'assignees' => 'Assignees',
+                    'deadline'  => 'Deadline',
+                    'stage'     => 'Stage',
                 ],
+            ],
+
+            'time-tracking' => [
+                'title' => 'Time Tracking',
+
+                'entries' => [
+                    'allocated-time'        => 'Allocated Time',
+                    'time-spent'            => 'Time Spent',
+                    'time-spent-suffix'     => ' Hours',
+                    'time-remaining'        => 'Time Remaining',
+                    'time-remaining-suffix' => ' Hours',
+                    'progress'              => 'Progress',
+                ],
+            ],
+
+            'additional-information' => [
+                'title' => 'Additional Information',
             ],
 
             'record-information' => [
-                'title' => 'Thông tin bản ghi',
+                'title' => 'Record Information',
 
                 'entries' => [
-                    'created-at'   => 'Được tạo lúc',
-                    'created-by'   => 'Được tạo bởi',
-                    'last-updated' => 'Cập nhật lần cuối',
+                    'created-at'   => 'Created At',
+                    'created-by'   => 'Created By',
+                    'last-updated' => 'Last Updated',
+                ],
+            ],
+
+            'statistics' => [
+                'title' => 'Statistics',
+
+                'entries' => [
+                    'sub-tasks'         => 'Sub Tasks',
+                    'timesheet-entries' => 'Timesheet Entries',
                 ],
             ],
         ],

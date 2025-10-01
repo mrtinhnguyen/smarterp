@@ -3,11 +3,11 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => 'Giai đoạn công việc mới',
+            'label' => 'Giai đoạn nhiệm vụ mới',
 
             'notification' => [
-                'title' => 'Giai đoạn công việc đã tạo',
-                'body'  => 'Giai đoạn công việc đã được tạo thành công.',
+                'title' => 'Giai đoạn nhiệm vụ đã được tạo',
+                'body'  => 'Giai đoạn nhiệm vụ đã được tạo thành công.',
             ],
         ],
     ],

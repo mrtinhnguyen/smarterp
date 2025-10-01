@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 return [
     'title' => 'Ngày bắt buộc',
@@ -6,7 +6,7 @@ return [
     'model-label' => 'Ngày bắt buộc',
 
     'navigation' => [
-        'title' => 'Ngày nghỉ bắt buộc',
+        'title' => 'Ngày lễ bắt buộc',
     ],
 
     'form' => [
@@ -22,7 +22,7 @@ return [
         'columns' => [
             'name'         => 'Tên',
             'company-name' => 'Tên công ty',
-            'created-by'   => 'Tạo bởi',
+            'created-by'   => 'Được tạo bởi',
             'start-date'   => 'Ngày bắt đầu',
             'end-date'     => 'Ngày kết thúc',
         ],
@@ -30,7 +30,7 @@ return [
         'filters' => [
             'name'         => 'Tên',
             'company-name' => 'Tên công ty',
-            'created-by'   => 'Tạo bởi',
+            'created-by'   => 'Được tạo bởi',
             'start-date'   => 'Ngày bắt đầu',
             'end-date'     => 'Ngày kết thúc',
         ],
@@ -38,7 +38,7 @@ return [
         'groups' => [
             'name'         => 'Tên',
             'company-name' => 'Tên công ty',
-            'created-by'   => 'Tạo bởi',
+            'created-by'   => 'Được tạo bởi',
             'start-date'   => 'Ngày bắt đầu',
             'end-date'     => 'Ngày kết thúc',
         ],
@@ -46,14 +46,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Ngày bắt buộc đã cập nhật',
+                    'title' => 'Ngày bắt buộc đã được cập nhật',
                     'body'  => 'Ngày bắt buộc đã được cập nhật thành công.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Ngày bắt buộc đã xóa',
+                    'title' => 'Ngày bắt buộc đã được xóa',
                     'body'  => 'Ngày bắt buộc đã được xóa thành công.',
                 ],
             ],
@@ -62,7 +62,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Các ngày bắt buộc đã xóa',
+                    'title' => 'Các ngày bắt buộc đã được xóa',
                     'body'  => 'Các ngày bắt buộc đã được xóa thành công.',
                 ],
             ],

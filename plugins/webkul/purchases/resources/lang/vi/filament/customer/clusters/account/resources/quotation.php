@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Quotations',
+        'title' => 'Báo giá',
     ],
 ];
 

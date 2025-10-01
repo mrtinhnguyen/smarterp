@@ -1,13 +1,13 @@
 ﻿<?php
 
 return [
-    'label' => 'Set to Draft',
+    'label' => 'Đặt thành bản nháp',
 
     'action' => [
         'notification' => [
             'success' => [
-                'title' => 'Order marked as draft',
-                'body'  => 'The order has been marked as draft successfully.',
+                'title' => 'Đơn hàng đã được đánh dấu là bản nháp',
+                'body'  => 'Đơn hàng đã được đánh dấu là bản nháp thành công.',
             ],
         ],
     ],

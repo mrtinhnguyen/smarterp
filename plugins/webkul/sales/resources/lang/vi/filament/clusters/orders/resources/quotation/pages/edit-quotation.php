@@ -2,17 +2,16 @@
 
 return [
     'notification' => [
-        'title' => 'Bao gia da duoc cap nhat',
-        'body'  => 'Bao gia da duoc cap nhat thanh cong.',
+        'title' => 'Báo giá đã được cập nhật',
+        'body'  => 'Báo giá đã được cập nhật thành công.',
     ],
 
     'header-actions' => [
         'notification' => [
             'delete' => [
-                'title' => 'Delete Quotation',
-                'body'  => 'Quotation has been deleted successfully.',
+                'title' => 'Xóa báo giá',
+                'body'  => 'Báo giá đã được xóa thành công.',
             ],
         ],
     ],
 ];
-

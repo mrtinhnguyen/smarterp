@@ -3,19 +3,19 @@
 return [
     'header-actions' => [
         'print' => [
-            'label' => 'Print',
+            'label' => 'In',
         ],
 
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Order Deleted',
-                    'body'  => 'Don hang da duoc xoa thanh cong.',
+                    'title' => 'Đơn hàng đã được xóa',
+                    'body'  => 'Đơn hàng đã được xóa thành công.',
                 ],
 
                 'error' => [
-                    'title' => 'Order could not be deleted',
-                    'body'  => 'The order cannot be deleted because it is currently in use.',
+                    'title' => 'Không thể xóa đơn hàng',
+                    'body'  => 'Đơn hàng không thể được xóa vì đang được sử dụng.',
                 ],
             ],
         ],

@@ -1,22 +1,21 @@
-﻿<?php
+<?php
 
 return [
-    'label'        => 'Generate Variants',
+    'label'        => 'Tạo biến thể',
     'notification' => [
         'empty' => [
-            'title' => 'No attributes found',
-            'body'  => 'Please add attributes to generate variants.',
+            'title' => 'Không tìm thấy thuộc tính',
+            'body'  => 'Vui lòng thêm thuộc tính để tạo biến thể.',
         ],
 
         'success' => [
-            'title' => 'Variants generated successfully',
-            'body'  => 'All product variants have been generated.',
+            'title' => 'Tạo biến thể thành công',
+            'body'  => 'Tất cả biến thể sản phẩm đã được tạo.',
         ],
 
         'error' => [
-            'title' => 'Error generating variants',
-            'body'  => 'An error occurred while generating product variants.',
+            'title' => 'Lỗi khi tạo biến thể',
+            'body'  => 'Đã xảy ra lỗi khi tạo biến thể sản phẩm.',
         ],
     ],
 ];
-

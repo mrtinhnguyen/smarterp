@@ -2,7 +2,7 @@
 
 return [
     'heading' => [
-        'title' => 'Người được giao hàng đầu',
+        'title' => 'Người được phân công hàng đầu',
     ],
 
     'table-columns' => [

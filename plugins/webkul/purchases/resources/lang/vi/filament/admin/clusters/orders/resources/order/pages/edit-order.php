@@ -2,37 +2,37 @@
 
 return [
     'notification' => [
-        'title' => 'Don hang da duoc cap nhat',
-        'body'  => 'Don hang da duoc cap nhat thanh cong.',
+        'title' => 'Đơn hàng đã được cập nhật',
+        'body'  => 'Đơn hàng đã được cập nhật thành công.',
     ],
 
     'header-actions' => [
         'confirm' => [
-            'label' => 'Confirm',
+            'label' => 'Xác nhận',
         ],
 
         'close' => [
-            'label' => 'Close',
+            'label' => 'Đóng',
         ],
 
         'cancel' => [
-            'label' => 'Cancel',
+            'label' => 'Hủy',
         ],
 
         'print' => [
-            'label' => 'Print',
+            'label' => 'In',
         ],
 
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Don hang da duoc xoa',
-                    'body'  => 'Don hang da duoc xoa thanh cong.',
+                    'title' => 'Đơn hàng đã được xóa',
+                    'body'  => 'Đơn hàng đã được xóa thành công.',
                 ],
 
                 'error' => [
-                    'title' => 'Order could not be deleted',
-                    'body'  => 'The order cannot be deleted because it is currently in use.',
+                    'title' => 'Không thể xóa đơn hàng',
+                    'body'  => 'Đơn hàng không thể được xóa vì đang được sử dụng.',
                 ],
             ],
         ],

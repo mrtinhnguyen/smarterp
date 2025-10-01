@@ -207,7 +207,7 @@
 
             <!-- PO Number -->
             <div class="po-number">
-                Purchase Order #{{ $record->name }}
+                Đơn đặt hàng #{{ $record->name }}
             </div>
 
             <!-- Details Table -->
@@ -215,28 +215,28 @@
                 <tr>
                     @if ($record->user_id)
                         <td width="25%">
-                            <strong>Buyer</strong><br>
+                            <strong>Người mua</strong><br>
                             {{ $record->user->name }}
                         </td>
                     @endif
                     
                     @if ($record->partner_reference)
                         <td width="25%">
-                            <strong>Order Reference</strong><br>
+                            <strong>Mã tham chiếu đơn hàng</strong><br>
                             {{ $record->partner_reference }}
                         </td>
                     @endif
 
                     @if ($record->ordered_at)
                         <td width="25%">
-                            <strong>Order Deadline</strong><br>
+                            <strong>Hạn chót đặt hàng</strong><br>
                             {{ $record->ordered_at }}
                         </td>
                     @endif
 
                     @if ($record->planned_at)
                         <td width="25%">
-                            <strong>Expected Arrival</strong><br>
+                            <strong>Dự kiến đến</strong><br>
                             {{ $record->planned_at }}
                         </td>
                     @endif
@@ -248,12 +248,12 @@
                 <table class="items-table">
                     <thead>
                         <tr>
-                            <th>Description</th>
-                            <th>Quantity</th>
-                            <th>Unit Price</th>
-                            <th>Discount</th>
-                            <th>Taxes</th>
-                            <th>Amount</th>
+                            <th>Mô tả</th>
+                            <th>Số lượng</th>
+                            <th>Đơn giá</th>
+                            <th>Giảm giá</th>
+                            <th>Thuế</th>
+                            <th>Số tiền</th>
                         </tr>
                     </thead>
 
@@ -274,17 +274,17 @@
                 <!-- Summary Table -->
                 <table class="summary-table">
                     <tr>
-                        <td>Untaxed Amount</td>
+                        <td>Số tiền chưa thuế</td>
                         <td style="text-align: right;">{{ number_format($record->untaxed_amount, 2) }}</td>
                     </tr>
 
                     <tr>
-                        <td>Tax</td>
+                        <td>Thuế</td>
                         <td style="text-align: right;">{{ number_format($record->tax_amount, 2) }}</td>
                     </tr>
 
                     <tr class="total-row">
-                        <td>Total</td>
+                        <td>Tổng cộng</td>
                         <td style="text-align: right;">{{ number_format($record->total_amount, 2) }}</td>
                     </tr>
                 </table>
@@ -294,13 +294,13 @@
 
             @if ($record->payment_term_id)
                 <div class="terms">
-                    <strong>Payment Terms:</strong><br>
+                    <strong>Điều khoản thanh toán:</strong><br>
                     {{ $record->paymentTerm->name }}
                 </div>
             @endif
 
             <div class="note">
-                Thank you for your business! Please contact us if you have any questions.
+                Cảm ơn bạn đã hợp tác! Vui lòng liên hệ với chúng tôi nếu bạn có bất kỳ câu hỏi nào.
             </div>
         </div>
     @endforeach

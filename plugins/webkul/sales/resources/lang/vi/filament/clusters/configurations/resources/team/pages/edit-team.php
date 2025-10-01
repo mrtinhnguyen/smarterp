@@ -2,17 +2,16 @@
 
 return [
     'notification' => [
-        'title' => 'Sales team updated',
-        'body'  => 'The sales team has been updated successfully.',
+        'title' => 'Đội bán hàng đã cập nhật',
+        'body'  => 'Đội bán hàng đã được cập nhật thành công.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Sales team deleted',
-                'body'  => 'The sales team has been deleted successfully.',
+                'title' => 'Đội bán hàng đã xóa',
+                'body'  => 'Đội bán hàng đã được xóa thành công.',
             ],
         ],
     ],
 ];
-

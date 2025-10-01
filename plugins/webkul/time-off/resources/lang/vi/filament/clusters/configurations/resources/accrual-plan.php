@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 return [
     'title'      => 'Kế hoạch tích lũy',
@@ -26,7 +26,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Kế hoạch tích lũy đã xóa',
+                    'title' => 'Kế hoạch tích lũy đã được xóa',
                     'body'  => 'Kế hoạch tích lũy đã được xóa thành công.',
                 ],
             ],
@@ -35,7 +35,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Kế hoạch tích lũy đã xóa',
+                    'title' => 'Kế hoạch tích lũy đã được xóa',
                     'body'  => 'Kế hoạch tích lũy đã được xóa thành công.',
                 ],
             ],

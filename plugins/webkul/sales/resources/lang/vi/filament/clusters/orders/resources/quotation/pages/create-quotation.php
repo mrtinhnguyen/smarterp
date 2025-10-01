@@ -2,8 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Bao gia da duoc tao',
-        'body'  => 'Bao gia da duoc tao thanh cong.',
+        'title' => 'Báo giá đã được tạo',
+        'body'  => 'Báo giá đã được tạo thành công.',
     ],
 ];
-

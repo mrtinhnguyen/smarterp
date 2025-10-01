@@ -1,11 +1,11 @@
 ﻿<?php
 
 return [
-    'title' => 'Create Order',
+    'title' => 'Tạo đơn hàng',
 
     'notification' => [
-        'title' => 'Don hang da duoc tao',
-        'body'  => 'Don hang da duoc tao thanh cong.',
+        'title' => 'Đơn hàng đã được tạo',
+        'body'  => 'Đơn hàng đã được tạo thành công.',
     ],
 ];
 

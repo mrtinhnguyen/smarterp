@@ -1,6 +1,5 @@
 ﻿<?php
 
 return [
-    'title' => 'Customers',
+    'title' => 'Khách hàng',
 ];
-

@@ -4,32 +4,32 @@ return [
     'form' => [
         'sections' => [
             'activity-details' => [
-                'title' => 'Activity Details',
+                'title' => 'Chi tiết hoạt động',
 
                 'fields' => [
-                    'activity-type' => 'Activity Type',
-                    'summary'       => 'Summary',
-                    'note'          => 'Note',
+                    'activity-type' => 'Loại hoạt động',
+                    'summary'       => 'Tóm tắt',
+                    'note'          => 'Ghi chú',
                 ],
             ],
 
             'assignment' => [
-                'title' => 'Assignment',
+                'title' => 'Phân công',
 
                 'fields' => [
-                    'assignment' => 'Assignment',
-                    'assignee'   => 'Assignee',
+                    'assignment' => 'Phân công',
+                    'assignee'   => 'Người được phân công',
                 ],
             ],
 
             'delay-information' => [
-                'title' => 'Delay Information',
+                'title' => 'Thông tin trễ hạn',
 
                 'fields' => [
-                    'delay-count'            => 'Delay Count',
-                    'delay-unit'             => 'Delay Unit',
-                    'delay-from'             => 'Delay From',
-                    'delay-from-helper-text' => 'Source of delay calculation',
+                    'delay-count'            => 'Số lần trễ hạn',
+                    'delay-unit'             => 'Đơn vị trễ hạn',
+                    'delay-from'             => 'Trễ hạn từ',
+                    'delay-from-helper-text' => 'Nguồn tính toán trễ hạn',
                 ],
             ],
         ],
@@ -37,55 +37,55 @@ return [
 
     'table' => [
         'columns' => [
-            'activity-type' => 'Activity Type',
-            'summary'       => 'Summary',
-            'assignment'    => 'Assignment',
-            'assigned-to'   => 'Assigned To',
-            'interval'      => 'Interval',
-            'delay-unit'    => 'Delay Unit',
-            'delay-from'    => 'Delay From',
-            'created-by'    => 'Created By',
-            'created-at'    => 'Created At',
-            'updated-at'    => 'Updated At',
+            'activity-type' => 'Loại hoạt động',
+            'summary'       => 'Tóm tắt',
+            'assignment'    => 'Phân công',
+            'assigned-to'   => 'Phân công cho',
+            'interval'      => 'Khoảng thời gian',
+            'delay-unit'    => 'Đơn vị trễ hạn',
+            'delay-from'    => 'Trễ hạn từ',
+            'created-by'    => 'Tạo bởi',
+            'created-at'    => 'Ngày tạo',
+            'updated-at'    => 'Ngày cập nhật',
         ],
 
         'groups' => [
-            'activity-type' => 'Activity Type',
-            'assignment'    => 'Assignment',
-            'assigned-to'   => 'Assigned To',
-            'interval'      => 'Interval',
-            'delay-unit'    => 'Delay Unit',
-            'delay-from'    => 'Delay From',
-            'created-by'    => 'Created By',
-            'created-at'    => 'Created At',
-            'updated-at'    => 'Updated At',
+            'activity-type' => 'Loại hoạt động',
+            'assignment'    => 'Phân công',
+            'assigned-to'   => 'Phân công cho',
+            'interval'      => 'Khoảng thời gian',
+            'delay-unit'    => 'Đơn vị trễ hạn',
+            'delay-from'    => 'Trễ hạn từ',
+            'created-by'    => 'Tạo bởi',
+            'created-at'    => 'Ngày tạo',
+            'updated-at'    => 'Ngày cập nhật',
         ],
 
         'filters' => [
-            'activity-type'   => 'Activity Type',
-            'activity-status' => 'Activity Status',
-            'has-delay'       => 'Has Delay',
+            'activity-type'   => 'Loại hoạt động',
+            'activity-status' => 'Trạng thái hoạt động',
+            'has-delay'       => 'Có trễ hạn',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Activity template updated',
-                    'body'  => 'The activity template has been updated successfully.',
+                    'title' => 'Mẫu hoạt động đã cập nhật',
+                    'body'  => 'Mẫu hoạt động đã được cập nhật thành công.',
                 ],
             ],
 
             'create' => [
                 'notification' => [
-                    'title' => 'Activity template created',
-                    'body'  => 'The activity template has been created successfully.',
+                    'title' => 'Mẫu hoạt động đã tạo',
+                    'body'  => 'Mẫu hoạt động đã được tạo thành công.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Activity template deleted',
-                    'body'  => 'The activity template has been deleted successfully.',
+                    'title' => 'Mẫu hoạt động đã xóa',
+                    'body'  => 'Mẫu hoạt động đã được xóa thành công.',
                 ],
             ],
         ],
@@ -93,8 +93,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Activity templates deleted',
-                    'body'  => 'The activity templates has been deleted successfully.',
+                    'title' => 'Các mẫu hoạt động đã xóa',
+                    'body'  => 'Các mẫu hoạt động đã được xóa thành công.',
                 ],
             ],
         ],
@@ -103,36 +103,35 @@ return [
     'infolist' => [
         'sections' => [
             'activity-details' => [
-                'title' => 'Activity Details',
+                'title' => 'Chi tiết hoạt động',
 
                 'entries' => [
-                    'activity-type' => 'Activity Type',
-                    'summary'       => 'Summary',
+                    'activity-type' => 'Loại hoạt động',
+                    'summary'       => 'Tóm tắt',
                 ],
             ],
 
             'assignment' => [
-                'title' => 'Assignment',
+                'title' => 'Phân công',
 
                 'entries' => [
-                    'assignment' => 'Assignment',
-                    'assignee'   => 'Assignee',
+                    'assignment' => 'Phân công',
+                    'assignee'   => 'Người được phân công',
                 ],
             ],
 
             'delay-information' => [
-                'title' => 'Delay Information',
+                'title' => 'Thông tin trễ hạn',
 
                 'entries' => [
-                    'delay-count'            => 'Delay Count',
-                    'delay-unit'             => 'Delay Unit',
-                    'delay-from'             => 'Delay From',
-                    'delay-from-helper-text' => 'Source of delay calculation',
+                    'delay-count'            => 'Số lần trễ hạn',
+                    'delay-unit'             => 'Đơn vị trễ hạn',
+                    'delay-from'             => 'Trễ hạn từ',
+                    'delay-from-helper-text' => 'Nguồn tính toán trễ hạn',
                 ],
             ],
         ],
 
-        'note' => 'Note',
+        'note' => 'Ghi chú',
     ],
 ];
-

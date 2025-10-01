@@ -1,36 +1,35 @@
-﻿<?php
+<?php
 
 return [
-    'title' => 'Variants',
+    'title' => 'Biến thể',
 
     'form' => [
-        'date'                   => 'Date',
-        'employee'               => 'Employee',
-        'description'            => 'Description',
-        'time-spent'             => 'Time Spent',
-        'time-spent-helper-text' => 'Time spent in hours (Eg. 1.5 hours means 1 hour 30 minutes)',
+        'date'                   => 'Ngày',
+        'employee'               => 'Nhân viên',
+        'description'            => 'Mô tả',
+        'time-spent'             => 'Thời gian sử dụng',
+        'time-spent-helper-text' => 'Thời gian sử dụng tính bằng giờ (Ví dụ: 1.5 giờ có nghĩa là 1 giờ 30 phút)',
     ],
 
     'table' => [
         'columns' => [
-            'date'                   => 'Date',
-            'employee'               => 'Employee',
-            'description'            => 'Description',
-            'time-spent'             => 'Time Spent',
-            'time-spent-on-subtasks' => 'Time Spent on Subtasks',
-            'total-time-spent'       => 'Total Time Spent',
-            'remaining-time'         => 'Remaining Time',
-            'variant-values'         => 'Variant Values',
+            'date'                   => 'Ngày',
+            'employee'               => 'Nhân viên',
+            'description'            => 'Mô tả',
+            'time-spent'             => 'Thời gian sử dụng',
+            'time-spent-on-subtasks' => 'Thời gian sử dụng cho nhiệm vụ phụ',
+            'total-time-spent'       => 'Tổng thời gian sử dụng',
+            'remaining-time'         => 'Thời gian còn lại',
+            'variant-values'         => 'Giá trị biến thể',
         ],
 
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Variant deleted',
-                    'body'  => 'The variant has been deleted successfully.',
+                    'title' => 'Biến thể đã được xóa',
+                    'body'  => 'Biến thể đã được xóa thành công.',
                 ],
             ],
         ],
     ],
 ];
-

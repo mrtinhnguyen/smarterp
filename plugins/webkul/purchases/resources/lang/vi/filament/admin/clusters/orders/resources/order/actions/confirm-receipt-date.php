@@ -1,13 +1,13 @@
 ﻿<?php
 
 return [
-    'label' => 'Confirm Receipt Date',
+    'label' => 'Xác nhận ngày nhận hàng',
 
     'action' => [
         'notification' => [
             'success' => [
-                'title' => 'Order confirmed receipt date',
-                'body'  => 'The order has been confirmed receipt date successfully.',
+                'title' => 'Ngày nhận hàng đã được xác nhận',
+                'body'  => 'Ngày nhận hàng của đơn hàng đã được xác nhận thành công.',
             ],
         ],
     ],

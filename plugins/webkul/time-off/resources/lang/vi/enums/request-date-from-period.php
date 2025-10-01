@@ -1,5 +1,6 @@
 ﻿<?php
 
 return [
-    // TODO: Add Vietnamese translations
+    'morning'   => 'Buổi sáng',
+    'afternoon' => 'Buổi chiều',
 ];

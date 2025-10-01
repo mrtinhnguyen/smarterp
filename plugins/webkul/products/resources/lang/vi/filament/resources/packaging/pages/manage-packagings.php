@@ -1,15 +1,14 @@
-﻿<?php
+<?php
 
 return [
     'header-actions' => [
         'create' => [
-            'label' => 'New Packaging',
+            'label' => 'Đóng gói mới',
 
             'notification' => [
-                'title' => 'Bao goi da duoc tao',
-                'body'  => 'Bao goi da duoc tao thanh cong.',
+                'title' => 'Đóng gói đã được tạo',
+                'body'  => 'Đóng gói đã được tạo thành công.',
             ],
         ],
     ],
 ];
-

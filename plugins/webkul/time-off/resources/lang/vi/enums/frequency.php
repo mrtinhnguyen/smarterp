@@ -1,7 +1,7 @@
 ﻿<?php
 
 return [
-    'hourly'    => 'Theo giờ',
+    'hourly'    => 'Hàng giờ',
     'daily'     => 'Hàng ngày',
     'weekly'    => 'Hàng tuần',
     'bimonthly' => 'Hai lần một tháng',

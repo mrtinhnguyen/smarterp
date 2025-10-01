@@ -2,17 +2,16 @@
 
 return [
     'notification' => [
-        'title' => 'Quotation Template Updated',
-        'body'  => 'Quotation Template has been updated successfully.',
+        'title' => 'Mẫu báo giá đã cập nhật',
+        'body'  => 'Mẫu báo giá đã được cập nhật thành công.',
     ],
 
     'header-actions' => [
         'notification' => [
             'delete' => [
-                'title' => 'Delete Quotation Template',
-                'body'  => 'Quotation template has been deleted successfully.',
+                'title' => 'Xóa mẫu báo giá',
+                'body'  => 'Mẫu báo giá đã được xóa thành công.',
             ],
         ],
     ],
 ];
-

@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Vendor Bills',
+        'title' => 'Hóa đơn nhà cung cấp',
     ],
 ];
 

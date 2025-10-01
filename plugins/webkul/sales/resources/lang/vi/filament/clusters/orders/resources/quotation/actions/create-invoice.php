@@ -1,28 +1,27 @@
 ﻿<?php
 
 return [
-    'title' => 'Create Invoice',
+    'title' => 'Tạo hóa đơn',
 
     'modal' => [
-        'heading' => 'Create Invoice',
+        'heading' => 'Tạo hóa đơn',
     ],
 
     'notification' => [
         'invoice-created' => [
-            'title' => 'Invoice created',
-            'body'  => 'Invoice has been created successfully.',
+            'title' => 'Hóa đơn đã tạo',
+            'body'  => 'Hóa đơn đã được tạo thành công.',
         ],
 
         'no-invoiceable-lines' => [
-            'title' => 'No invoiceable lines',
-            'body'  => 'There is no invoiceable line, please make sure that a quantity has been received.',
+            'title' => 'Không có dòng có thể lập hóa đơn',
+            'body'  => 'Không có dòng nào có thể lập hóa đơn, vui lòng đảm bảo rằng số lượng đã được nhận.',
         ],
     ],
 
     'form' => [
         'fields' => [
-            'create-invoice' => 'Create Invoice',
+            'create-invoice' => 'Tạo hóa đơn',
         ],
     ],
 ];
-

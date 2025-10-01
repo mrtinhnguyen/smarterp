@@ -2,8 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Order Template Product created',
-        'body'  => 'The Order Template Product has been created successfully',
+        'title' => 'Mẫu đơn đặt hàng đã tạo',
+        'body'  => 'Mẫu đơn đặt hàng đã được tạo thành công.',
     ],
 ];
-

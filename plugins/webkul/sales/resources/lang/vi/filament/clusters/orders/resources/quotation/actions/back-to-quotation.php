@@ -1,13 +1,12 @@
 ﻿<?php
 
 return [
-    'title' => 'Set as Quotation',
+    'title' => 'Đặt thành báo giá',
 
     'notification' => [
         'back-to-quotation' => [
-            'title' => 'Sale order set as Quotation',
-            'body'  => 'Sale order has been set as Quotation successfully.',
+            'title' => 'Đơn hàng bán đã đặt thành báo giá',
+            'body'  => 'Đơn hàng bán đã được đặt thành báo giá thành công.',
         ],
     ],
 ];
-

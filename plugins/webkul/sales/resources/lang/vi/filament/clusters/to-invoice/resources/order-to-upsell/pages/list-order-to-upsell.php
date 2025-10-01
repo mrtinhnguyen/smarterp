@@ -2,8 +2,7 @@
 
 return [
     'tabs' => [
-        'my-orders' => 'My Orders',
-        'archived'  => 'Archived',
+        'my-orders' => 'Đơn hàng của tôi',
+        'archived'  => 'Đã lưu trữ',
     ],
 ];
-

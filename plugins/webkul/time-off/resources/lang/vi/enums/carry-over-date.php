@@ -1,5 +1,7 @@
 ﻿<?php
 
 return [
-    // TODO: Add Vietnamese translations
+    'year-start' => 'Vào đầu năm',
+    'allocation' => 'Vào ngày phân bổ',
+    'other'      => 'Khác',
 ];

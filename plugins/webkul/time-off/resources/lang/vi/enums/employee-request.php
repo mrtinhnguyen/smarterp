@@ -1,5 +1,6 @@
 ﻿<?php
 
 return [
-    // TODO: Add Vietnamese translations
+    'yes' => 'Cho phép yêu cầu ngày nghỉ bổ sung',
+    'no'  => 'Không cho phép',
 ];

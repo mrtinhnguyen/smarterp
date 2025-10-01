@@ -1,18 +1,17 @@
 ﻿<?php
 
 return [
-    'title' => 'Confirm',
+    'title' => 'Xác nhận',
 
     'notification' => [
         'confirmed' => [
-            'title' => 'Quotation confirmed',
-            'body'  => 'Quotation has been confirmed and converted to sale successfully.',
+            'title' => 'Báo giá đã xác nhận',
+            'body'  => 'Báo giá đã được xác nhận và chuyển đổi thành bán hàng thành công.',
         ],
 
         'error' => [
-            'title' => 'Error',
-            'body'  => 'An error occurred while confirming the quotation.',
+            'title' => 'Lỗi',
+            'body'  => 'Đã xảy ra lỗi khi xác nhận báo giá.',
         ],
     ],
 ];
-

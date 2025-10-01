@@ -1,19 +1,18 @@
-﻿<?php
+<?php
 
 return [
-    'title' => 'Products',
+    'title' => 'Sản phẩm',
 
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => 'Add Product',
+                'label' => 'Thêm sản phẩm',
 
                 'notification' => [
-                    'title' => 'San pham da duoc tao',
-                    'body'  => 'San pham da duoc tao thanh cong.',
+                    'title' => 'Sản phẩm đã được tạo',
+                    'body'  => 'Sản phẩm đã được tạo thành công.',
                 ],
             ],
         ],
     ],
 ];
-

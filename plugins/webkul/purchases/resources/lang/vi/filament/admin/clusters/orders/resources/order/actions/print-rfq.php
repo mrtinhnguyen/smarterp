@@ -1,6 +1,6 @@
 ﻿<?php
 
 return [
-    'label' => 'Print RFQ',
+    'label' => 'In RFQ',
 ];
 

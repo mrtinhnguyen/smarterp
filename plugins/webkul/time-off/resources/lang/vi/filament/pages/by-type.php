@@ -1,5 +1,7 @@
-﻿<?php
+<?php
 
 return [
-    // TODO: Add Vietnamese translations
+    'navigation' => [
+        'title' => 'Theo loại',
+    ],
 ];

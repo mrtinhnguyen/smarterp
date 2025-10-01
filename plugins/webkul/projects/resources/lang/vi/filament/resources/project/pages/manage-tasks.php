@@ -1,40 +1,45 @@
-﻿<?php
+<?php
 
 return [
-    'navigation' => [
-        'title' => 'Công việc',
-        'group' => 'Dự án',
-    ],
-    'form' => [
-        'sections' => [
-            'general' => [
-                'title' => 'Thông tin chung',
-                'fields' => [
-                    'name' => 'Tên',
-                    'description' => 'Mô tả',
-                ],
-            ],
+    'title' => 'Nhiệm vụ',
+
+    'header-actions' => [
+        'create' => [
+            'label' => 'Nhiệm vụ mới',
         ],
     ],
+
     'table' => [
-        'columns' => [
-            'name' => 'Tên',
-            'created-at' => 'Tạo lúc',
-            'updated-at' => 'Cập nhật lúc',
-        ],
         'actions' => [
-            'edit' => [
+            'restore' => [
                 'notification' => [
-                    'title' => 'Đã cập nhật',
-                    'body' => 'Đã được cập nhật thành công.',
+                    'title' => 'Nhiệm vụ đã được khôi phục',
+                    'body'  => 'Nhiệm vụ đã được khôi phục thành công.',
                 ],
             ],
+
             'delete' => [
                 'notification' => [
-                    'title' => 'Đã xóa',
-                    'body' => 'Đã được xóa thành công.',
+                    'title' => 'Nhiệm vụ đã được xóa',
+                    'body'  => 'Nhiệm vụ đã được xóa thành công.',
+                ],
+            ],
+
+            'force-delete' => [
+                'notification' => [
+                    'title' => 'Nhiệm vụ đã được xóa vĩnh viễn',
+                    'body'  => 'Nhiệm vụ đã được xóa vĩnh viễn thành công.',
                 ],
             ],
         ],
+    ],
+
+    'tabs' => [
+        'open-tasks'       => 'Nhiệm vụ đang mở',
+        'my-tasks'         => 'Nhiệm vụ của tôi',
+        'unassigned-tasks' => 'Nhiệm vụ chưa phân công',
+        'closed-tasks'     => 'Nhiệm vụ đã đóng',
+        'starred-tasks'    => 'Nhiệm vụ đã đánh dấu',
+        'archived-tasks'   => 'Nhiệm vụ đã lưu trữ',
     ],
 ];

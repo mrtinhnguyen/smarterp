@@ -3,11 +3,11 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => 'Thẻ mới',
+            'label' => 'Nhãn mới',
 
             'notification' => [
-                'title' => 'Thẻ đã tạo',
-                'body'  => 'Thẻ đã được tạo thành công.',
+                'title' => 'Nhãn đã được tạo',
+                'body'  => 'Nhãn đã được tạo thành công.',
             ],
         ],
     ],

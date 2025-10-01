@@ -2,7 +2,6 @@
 
 return [
     'navigation' => [
-        'title' => 'Deliveries',
+        'title' => 'Giao hàng',
     ],
 ];
-

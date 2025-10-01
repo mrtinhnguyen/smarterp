@@ -2,25 +2,25 @@
 
 return [
     'navigation' => [
-        'title' => 'Purchase Agreements',
+        'title' => 'Hợp đồng mua hàng',
     ],
 
     'tabs' => [
-        'my-agreements'      => 'My Agreements',
-        'blanket-orders'     => 'Blanket Orders',
-        'purchase-templates' => 'Purchase Templates',
-        'draft'              => 'Draft',
-        'done'               => 'Done',
-        'archived'           => 'Archived',
+        'my-agreements'      => 'Hợp đồng của tôi',
+        'blanket-orders'     => 'Đơn hàng tổng',
+        'purchase-templates' => 'Mẫu mua hàng',
+        'draft'              => 'Bản nháp',
+        'done'               => 'Hoàn thành',
+        'archived'           => 'Đã lưu trữ',
     ],
 
     'header-actions' => [
         'create' => [
-            'label' => 'New Purchase Agreement',
+            'label' => 'Hợp đồng mua hàng mới',
 
             'notification' => [
-                'title' => 'Hop dong mua hang da duoc tao',
-                'body'  => 'Hop dong mua hang da duoc tao thanh cong.',
+                'title' => 'Hợp đồng mua hàng đã được tạo',
+                'body'  => 'Hợp đồng mua hàng đã được tạo thành công.',
             ],
         ],
     ],

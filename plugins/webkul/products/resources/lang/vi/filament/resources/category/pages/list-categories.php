@@ -1,15 +1,14 @@
-﻿<?php
+<?php
 
 return [
     'header-actions' => [
         'create' => [
-            'label' => 'New Category',
+            'label' => 'Danh mục mới',
 
             'notification' => [
-                'title' => 'Danh muc da duoc tao',
-                'body'  => 'Danh muc da duoc tao thanh cong.',
+                'title' => 'Danh mục đã được tạo',
+                'body'  => 'Danh mục đã được tạo thành công.',
             ],
         ],
     ],
 ];
-
