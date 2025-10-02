@@ -1,8 +1,7 @@
 {
-    "name": "aureuserp/aureuserp",
+    "name": "ticketx/smarterp",
     "type": "project",
-
-    "description": "Open Source ERP Solution built on Laravel for Small and Medium Enterprises (SMEs) and large-scale enterprises.",
+    "description": "Smart ERP Solution built on Laravel for Small and Medium Enterprises (SMEs) and large-scale enterprises.",
     "keywords": [
         "erp",
         "laravel",
@@ -10,7 +9,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.2",
+        "php": "^8.4",
         "awcodes/filament-badgeable-column": "^3.0",
         "barryvdh/laravel-debugbar": "^3.15",
         "barryvdh/laravel-dompdf": "^3.1",
@@ -94,9 +93,8 @@
     "minimum-stability": "beta",
     "prefer-stable": true,
     "support": {
-        "issues": "https://github.com/aureuserp/aureuserp/issues",
-        "forum": "https://forums.aureuserp.com",
-        "source": "https://github.com/aureuserp/aureuserp",
-        "docs": "https://devdocs.aureuserp.com"
+        "issues": "https://github.com/mrtinhnguyen/smarterp/issues",
+        "source": "https://github.com/mrtinhnguyen/smarterp",
+        "docs": "https://docs.smarterp.vn"
     }
 }
