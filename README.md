@@ -1,19 +1,3 @@
-<p align="center">
-  <a href="https://aureuserp.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aureuserp/temp-media/master/aureus-logo-dark.png">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aureuserp/temp-media/master/aureus-logo-light.png">
-      <img src="https://raw.githubusercontent.com/aureuserp/temp-media/master/aureus-logo-light.png" alt="AureusERP logo">
-    </picture>
-  </a>  
-</p>
-
-<p align="center">
-<a href="https://packagist.org/packages/aureuserp/aureuserp"><img src="https://poser.pugx.org/aureuserp/aureuserp/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/aureuserp/aureuserp"><img src="https://poser.pugx.org/aureuserp/aureuserp/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/aureuserp/aureuserp"><img src="https://poser.pugx.org/aureuserp/aureuserp/license.svg" alt="License"></a>
-</p>
-
 ## Topics
 
 1. [Introduction](#introduction)
@@ -24,7 +8,16 @@
 
 ### Introduction
 
-Aureus ERP is a comprehensive, open-source Enterprise Resource Planning (ERP) solution designed for Small and Medium Enterprises (SMEs) and large-scale enterprises. Built on **[Laravel](https://laravel.com)**, the most popular PHP framework, and **[FilamentPHP](https://filamentphp.com)**, a dynamic resource management library, Aureus ERP offers an extensible and developer-friendly platform for managing every aspect of your business operations.
+**Smart ERP** is built upon the open-source foundation of [Aureus ERP](https://github.com/aureuserp/aureuserp), a comprehensive Enterprise Resource Planning (ERP) solution for small, medium, and large enterprises.  
+
+Leveraging the power of **[Laravel](https://laravel.com)**, the most popular PHP framework, and **[FilamentPHP](https://filamentphp.com)**, a flexible resource management library, Smart ERP inherits a strong and extensible architecture.  
+
+Our goal is to continue the vision of Aureus ERP while delivering:  
+- **Optimized features for businesses in Vietnam**  
+- **A more user-friendly experience**  
+- **Flexible extensibility for developers**  
+
+Smart ERP respects and acknowledges the original work of Aureus ERP while striving to bring additional value and improvements for practical business needs.
 
 **Key Features**
 
@@ -34,13 +27,14 @@ Aureus ERP is a comprehensive, open-source Enterprise Resource Planning (ERP) so
 -   **Open-Source Solution**: Free to use, modify, and extend, fostering community-driven innovation and improvements.
 -   **Scalable for Enterprises**: Built to handle complex business processes and workflows, making it suitable for growing organizations.
 
-**Why Choose Aureus ERP?**
+## Why Choose Smart ERP?
 
--   **Modern Technology Stack**: Combines Laravel's backend strength with FilamentPHP's efficient frontend capabilities.
--   **Developer-Centric Design**: Offers clean code, modular architecture, and extensive documentation for custom development.
--   **User-Friendly Interface**: Features responsive and visually appealing designs with TailwindCSS.
--   **Scalable & Customizable**: Adapts to the unique requirements of businesses of all sizes.
--   **Community-Driven**: Backed by a thriving open-source community for support and innovation.
+-   **Proven Foundation**: Built upon the solid architecture of [Aureus ERP](https://github.com/...), ensuring reliability and scalability.  
+-   **Modern Technology Stack**: Powered by **Laravel** and **FilamentPHP**, with a responsive UI enhanced by **TailwindCSS**.  
+-   **Localized & Optimized**: Tailored features and workflows designed to better fit the needs of businesses in Vietnam.  
+-   **Developer-Friendly**: Clean, modular codebase that is easy to extend and customize for specific use cases.  
+-   **Scalable & Flexible**: Suitable for small businesses up to large enterprises, with room to grow as your business expands.  
+-   **Community-Driven**: Open-source, with contributions encouraged to foster collaboration and innovation.  
 
 ### Requirements
 
@@ -57,7 +51,7 @@ To run and develop Aureus ERP, ensure your environment meets the following requi
 
 ### Installation & Configuration
 
-Installing and setting up Aureus ERP is quick and straightforward. Follow the steps below to get started:
+Installing and setting up ERP is quick and straightforward. Follow the steps below to get started:
 
 1. **Run the Installation Command**  
    Simply execute the following command in your terminal:
@@ -87,7 +81,7 @@ That’s it! With just one command, your Aureus ERP environment is ready to use.
 
 ## Plugins
 
-AureusERP plugin are divided into two categories:
+Divided into two categories:
 
 ### Core Plugin (System Plugin)
 
@@ -174,19 +168,15 @@ php artisan inventories:uninstall
 
 Some plugins require other plugin to function properly. The system will automatically inform you of these dependencies during the installation process and guide you through installing any required components.
 
-## Customization
-
-AureusERP is designed to be highly customizable, allowing you to:
-
--   Install only the plugin you need
--   Extend existing plugin with custom functionality
--   Create custom dashboards and reports
--   Define user roles and permissions
 
 ### License
 
-Aureus ERP is a truly opensource ERP framework which will always be free under the MIT License.
+Smart ERP is an open-source ERP framework, distributed under the [MIT License](./LICENSE).  
+This project is originally forked from Aureus ERP and continues to remain free and open for the community.  
 
 ### Security Vulnerabilities
 
-Please don't disclose security vulnerabilities publicly. If you find any security vulnerability in Aureus ERP then please email us: support@webkul.com.
+Please **do not disclose security vulnerabilities publicly**.  
+If you discover a security issue in Smart ERP, kindly report it responsibly by emailing us at: **support@smarterp.vn** (or your preferred contact).  
+
+We appreciate the efforts of the community to help us keep the system secure and reliable.
